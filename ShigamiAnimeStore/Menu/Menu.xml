@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <submenu nombre="Administrador" id="">
+    <item nombre="Agregar Usuario" id="2">
+    </item>
+    <item nombre="Administrar Usuarios" id="3">
+    </item>
+    <item nombre="Agregar Perfil" id="4">
+    </item>
+    <item nombre="Administrar Permisos" id="5">
+    </item>
+    <item nombre="Agregar Idioma" id="10">
+    </item>
+    <item nombre="Administrar Idiomas" id="11">
+    </item>
+    <item nombre="Realizar Backup" id="18">
+    </item>
+    <item nombre="Realizar Restore" id="19">
+    </item>
+    <item nombre="Visualizar Bitacora" id="9">
+    </item>
+  </submenu>
+  <submenu nombre="Consultas">
+    <item nombre="Visualizar Consultas" id="22">
+    </item>
+  </submenu>
+  <submenu nombre="Mensajeria">
+    <item nombre="Escribir Mensaje" id="23">
+    </item>
+    <item nombre="Buzon de Entrada" id="24">
+    </item>
+  </submenu>
+  <submenu nombre="Opciones">
+    <item nombre="Cambiar Contraseña" id="">
+    </item>
+    <item nombre="Modificar Idioma" id="">
+    </item>
+    <item nombre="Modificar Datos Personales" id="">
+    </item>
+  </submenu>
+
+</menu>

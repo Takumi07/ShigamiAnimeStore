@@ -1,0 +1,121 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Maestra.master.vb" Inherits="ShigamiAnimeStore.Maestra" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="CSS/MisEstilos.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="contenedor">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="fila fondoColor borde">
+                <div class="col-md-2">
+                    <asp:Image ID="LogoMenu" CssClass="ImagenSize"  runat="server" ImageUrl="~/Imagenes/Logo1.png"/>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="centradoVertical">
+                        <div class="nombreShigami">SHIGAMI ANIME STORE</div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                   <div id="opcionesUsuario" runat="server" visible="false">
+                   <div class="col-md-3">
+                         <div class="centradoVerticalImagenUsuario">
+                        <img id="img_Usuario" runat="server" class="IconoImagenUsuario right"/>
+                    </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="fila">
+                            <div class="centradoVerticalNombreUsuario margenHorizontalUsuario">
+                                <asp:Label ID="lbl_NombredeUsuarioLogueado" runat="server" cssclass="textoNombreUsuario">Nombre de Usuario</asp:Label>
+                            </div>
+                        </div>
+                            <div class="fila">
+                                <div class="margenHorizontalUsuario">
+                                    <asp:Label ID="lbl_apellidoyNombre" runat="server" cssclass="textoNombreyApellidoUsuario">Apellido y Nombre</asp:Label>
+                                </div>
+                            </div>
+                            <div class="fila">
+                                <div class="col-md-2 col-md-offset-4">
+                                    <asp:ImageButton ID="img_mensajes" runat="server" cssclass="IconoSize cerrarSesion" ImageUrl="~/Imagenes/Message-32.png" OnClick="img_mensajes_Click"/>
+                                </div>
+                                <div class="col-md-2">
+                                    <asp:ImageButton ID="img_opciones" runat="server"  cssclass="IconoSize cerrarSesion" ImageUrl="~/Imagenes/Region-And-Language-32.png" OnClick="img_opciones_Click"/>
+                                </div>
+                                <div class="col-md-2">
+                                    <asp:ImageButton ID="img_logout" runat="server"  cssclass="IconoSize cerrarSesion" ImageUrl="~/Imagenes/exit-32.png" OnClick="img_logout_Click"/>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fila FilaLogin bordeMenu">
+                <div class="col-md-8">
+                    <asp:Menu ID="menuPrincipal" runat="server" Orientation="Horizontal" Font-Names="Estrangelo Edessa" Font-Size="18PX" ForeColor="#FFFFFF" Height="37px">
+                        <StaticSelectedStyle BackColor="#FFFFFF" />
+                        <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="7px" />
+                        <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicMenuStyle BackColor="#00919E" />
+                        <DynamicSelectedStyle BackColor="#00919E" />
+                        <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="7px" />
+                    </asp:Menu>
+                 </div>
+                <div id="MenuLogin" runat="server" class ="col-md-4" visible="true">
+                    <asp:Image ID="Image1" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/userH.png" />
+                    <asp:TextBox ID="txt_usuario"  runat="server" Width="116px"></asp:TextBox>
+                    <asp:Image ID="Image2" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/key-32.png" />
+                    <asp:TextBox ID="txt_password" runat="server" Width="116px" TextMode="Password"></asp:TextBox>
+                    <asp:ImageButton ID="ImageButton1" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/Forward-32.png" />
+                </div>
+             </div>
+            <div class="fila fondoGris">            
+                                                        <br />
+                                                    <br />
+            <div class="col-md-12">
+
+                <div id="miMenuVertical" class="col-md-2" runat="server">
+
+                                     <asp:Menu ID="menuVertical" runat="server"  DynamicVerticalOffset="2" StaticMenuItemStyle-Width="180px" Height="40px">
+                                         <StaticMenuItemStyle VerticalPadding="8px" />    
+                        <StaticHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicHoverStyle BackColor="#FFFFFF" ForeColor="#333333" />
+                        <DynamicMenuStyle BackColor="#00919E" />
+                        <DynamicSelectedStyle BackColor="#00919E" />
+                        <DynamicMenuItemStyle  VerticalPadding="8px" />
+            </asp:Menu>
+                </div>
+                <div id="miContenidoPagina"  class="col-md-10" runat="server">
+
+        <asp:ContentPlaceHolder ID="contenidoPagina" runat="server">
+        </asp:ContentPlaceHolder>
+                 </div>
+                </div>
+</div>
+             <div class="fila lineaCopyright"></div>
+            <br />
+                </div>
+                     <div class="col-md-1"></div>
+        <br />
+                         <br />
+        <div class="fila">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                    <div class="textoCopyright">Copyright 2015 - Alexis Yañez</div>
+                </div>
+        </div>
+            <br />
+        </div>
+
+    </form>
+</body>
+</html>

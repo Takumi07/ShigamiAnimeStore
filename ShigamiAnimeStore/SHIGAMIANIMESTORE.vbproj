@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{5F223EB8-5491-420C-A241-F9EBFB16FC1B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ShigamiAnimeStore</RootNamespace>
+    <AssemblyName>ShigamiAnimeStore</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ShigamiAnimeStore.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ShigamiAnimeStore.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.vbproj">
+      <Project>{6499c294-6280-4597-a65e-7d9632110726}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTIDADES\ENTIDADES.vbproj">
+      <Project>{22fc09e8-68a5-41b0-bbe9-bce2598f043b}</Project>
+      <Name>ENTIDADES</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrarIdiomas.aspx" />
+    <Content Include="AdministrarPerfiles.aspx" />
+    <Content Include="AdministrarUsuario.aspx" />
+    <Content Include="agregarIdioma.aspx" />
+    <Content Include="agregarPerfil.aspx" />
+    <Content Include="AgregarUsuario.aspx" />
+    <Content Include="cambiarIdioma.aspx" />
+    <Content Include="CambiarPassword.aspx" />
+    <Content Include="Contacto.aspx" />
+    <Content Include="CSS\DateTimePicker.css" />
+    <Content Include="CSS\MisEstilos.css" />
+    <Content Include="error.aspx" />
+    <Content Include="Imagenes\Add-32.png" />
+    <Content Include="Imagenes\add-64.png" />
+    <Content Include="Imagenes\Anime1.jpg" />
+    <Content Include="Imagenes\Calendar-32.png" />
+    <Content Include="Imagenes\Calender-Month-32.png" />
+    <Content Include="Imagenes\Clock-32.png" />
+    <Content Include="Imagenes\Delete-32.png" />
+    <Content Include="Imagenes\Down-32.png" />
+    <Content Include="Imagenes\Edit-32.png" />
+    <Content Include="Imagenes\Email-Add-32.png" />
+    <Content Include="Imagenes\Email-Receive-32.png" />
+    <Content Include="Imagenes\Email-Send-32.png" />
+    <Content Include="Imagenes\Equal-32.png" />
+    <Content Include="Imagenes\Exclamation-Red-64.png" />
+    <Content Include="Imagenes\exit-32.png" />
+    <Content Include="Imagenes\facebook.png" />
+    <Content Include="Imagenes\fondo2.png" />
+    <Content Include="Imagenes\Forward-32.png" />
+    <Content Include="Imagenes\Hide-password-32.png" />
+    <Content Include="Imagenes\Icono.jpg" />
+    <Content Include="Imagenes\Logo1.png" />
+    <Content Include="Imagenes\Key-32.png" />
+    <Content Include="Imagenes\Language-skills-32.png" />
+    <Content Include="Imagenes\Left_Quote-Vector-32.png" />
+    <Content Include="Imagenes\Letter-pen-32.png" />
+    <Content Include="Imagenes\Lock-32.png" />
+    <Content Include="Imagenes\Lock_32.png" />
+    <Content Include="Imagenes\Message-32.png" />
+    <Content Include="Imagenes\Message-already-read-32.png" />
+    <Content Include="Imagenes\Money-Dollar-32.png" />
+    <Content Include="Imagenes\money_32.png" />
+    <Content Include="Imagenes\Personal-information-32.png" />
+    <Content Include="Imagenes\Question-type-one-correct-32.png" />
+    <Content Include="Imagenes\Region-And-Language-32.png" />
+    <Content Include="Imagenes\Right_Quote-Vector-32.png" />
+    <Content Include="Imagenes\search-32.png" />
+    <Content Include="Imagenes\Select-language-32.png" />
+    <Content Include="Imagenes\Settings-32.png" />
+    <Content Include="Imagenes\Telephone-Add-32.png" />
+    <Content Include="Imagenes\Up-32.png" />
+    <Content Include="Imagenes\user-32.png" />
+    <Content Include="Imagenes\userH.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="JS\jquery-ui.js" />
+    <Content Include="Menu\Menu.xml" />
+    <Content Include="MuestraIndexx.aspx" />
+    <Content Include="QuienesSomos.aspx" />
+    <Content Include="realizarBackup.aspx" />
+    <Content Include="realizarRestore.aspx" />
+    <Content Include="recuperarClave.aspx" />
+    <Content Include="registrarUsuario.aspx" />
+    <Content Include="visualizarBitacora.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrarIdiomas.aspx.designer.vb">
+      <DependentUpon>administrarIdiomas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrarIdiomas.aspx.vb">
+      <DependentUpon>administrarIdiomas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdministrarPerfiles.aspx.designer.vb">
+      <DependentUpon>AdministrarPerfiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarPerfiles.aspx.vb">
+      <DependentUpon>AdministrarPerfiles.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AdministrarUsuario.aspx.designer.vb">
+      <DependentUpon>AdministrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdministrarUsuario.aspx.vb">
+      <DependentUpon>AdministrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="agregarIdioma.aspx.designer.vb">
+      <DependentUpon>agregarIdioma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agregarIdioma.aspx.vb">
+      <DependentUpon>agregarIdioma.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="agregarPerfil.aspx.designer.vb">
+      <DependentUpon>agregarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="agregarPerfil.aspx.vb">
+      <DependentUpon>agregarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AgregarUsuario.aspx.designer.vb">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarUsuario.aspx.vb">
+      <DependentUpon>AgregarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="cambiarIdioma.aspx.designer.vb">
+      <DependentUpon>cambiarIdioma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cambiarIdioma.aspx.vb">
+      <DependentUpon>cambiarIdioma.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CambiarPassword.aspx.designer.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarPassword.aspx.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.vb">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.aspx.vb">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="error.aspx.designer.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="error.aspx.vb">
+      <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MuestraIndexx.aspx.designer.vb">
+      <DependentUpon>MuestraIndexx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MuestraIndexx.aspx.vb">
+      <DependentUpon>MuestraIndexx.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Maestra.Master.designer.vb">
+      <DependentUpon>Maestra.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Maestra.Master.vb">
+      <DependentUpon>Maestra.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.designer.vb">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.vb">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="realizarBackup.aspx.designer.vb">
+      <DependentUpon>realizarBackup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="realizarBackup.aspx.vb">
+      <DependentUpon>realizarBackup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="realizarRestore.aspx.designer.vb">
+      <DependentUpon>realizarRestore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="realizarRestore.aspx.vb">
+      <DependentUpon>realizarRestore.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="recuperarClave.aspx.designer.vb">
+      <DependentUpon>recuperarClave.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recuperarClave.aspx.vb">
+      <DependentUpon>recuperarClave.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="registrarUsuario.aspx.designer.vb">
+      <DependentUpon>registrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registrarUsuario.aspx.vb">
+      <DependentUpon>registrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="visualizarBitacora.aspx.designer.vb">
+      <DependentUpon>visualizarBitacora.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="visualizarBitacora.aspx.vb">
+      <DependentUpon>visualizarBitacora.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Maestra.Master" />
+    <Content Include="JS\jquery-1.9.1.min.js" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52012</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52012/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
