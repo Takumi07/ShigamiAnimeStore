@@ -1,0 +1,2108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShigamiAnimeStore
+</name>
+</assembly>
+<members>
+<member name="F:ShigamiAnimeStore.registrarUsuario.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_NombreUsuario">
+	<summary>
+Control lbl_NombreUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_nombreusuario">
+	<summary>
+Control txt_nombreusuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.CustomValidator1">
+	<summary>
+Control CustomValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Contraseña">
+	<summary>
+Control lbl_Contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_contraseña">
+	<summary>
+Control txt_contraseña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.CustomValidator2">
+	<summary>
+Control CustomValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Idioma">
+	<summary>
+Control lbl_Idioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.ddl_idiomas">
+	<summary>
+Control ddl_idiomas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.cab_DatosPersonales">
+	<summary>
+Control cab_DatosPersonales.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Documento">
+	<summary>
+Control lbl_Documento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Documento">
+	<summary>
+Control txt_Documento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.requerido_txt_nombre">
+	<summary>
+Control requerido_txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.validarDocumento">
+	<summary>
+Control validarDocumento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Apellido">
+	<summary>
+Control lbl_Apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Apellido">
+	<summary>
+Control txt_Apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Apellido">
+	<summary>
+Control RequiredFieldValidatortxt_Apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Nombre">
+	<summary>
+Control txt_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Nombre">
+	<summary>
+Control RequiredFieldValidatortxt_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_FecNac">
+	<summary>
+Control lbl_FecNac.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.datepicker">
+	<summary>
+Control datepicker.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatordatepicker">
+	<summary>
+Control RequiredFieldValidatordatepicker.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.validadorFecha">
+	<summary>
+Control validadorFecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_correo">
+	<summary>
+Control lbl_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_correo">
+	<summary>
+Control txt_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidator1">
+	<summary>
+Control RequiredFieldValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Nacionalidad">
+	<summary>
+Control lbl_Nacionalidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.ddl_Nacionalidad">
+	<summary>
+Control ddl_Nacionalidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.cab_Direccion">
+	<summary>
+Control cab_Direccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Calle">
+	<summary>
+Control lbl_Calle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Calle">
+	<summary>
+Control txt_Calle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Calle">
+	<summary>
+Control RequiredFieldValidatortxt_Calle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Altura">
+	<summary>
+Control lbl_Altura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Altura">
+	<summary>
+Control txt_Altura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Altura">
+	<summary>
+Control RequiredFieldValidatortxt_Altura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.validarAltura">
+	<summary>
+Control validarAltura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Piso">
+	<summary>
+Control lbl_Piso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Piso">
+	<summary>
+Control txt_Piso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Departamento">
+	<summary>
+Control lbl_Departamento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Departamento">
+	<summary>
+Control txt_Departamento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Localidad">
+	<summary>
+Control lbl_Localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Localidad">
+	<summary>
+Control txt_Localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Localidad">
+	<summary>
+Control RequiredFieldValidatortxt_Localidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Provincia">
+	<summary>
+Control lbl_Provincia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.ddl_provincia">
+	<summary>
+Control ddl_provincia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Postal">
+	<summary>
+Control lbl_Postal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_Postal">
+	<summary>
+Control txt_Postal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.RequiredFieldValidatortxt_Postal">
+	<summary>
+Control RequiredFieldValidatortxt_Postal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.cab_Contacto">
+	<summary>
+Control cab_Contacto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Telefonos">
+	<summary>
+Control lbl_Telefonos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.gv_Telefono">
+	<summary>
+Control gv_Telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_NumeroTelefono">
+	<summary>
+Control lbl_NumeroTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.txt_NumeroTelefono">
+	<summary>
+Control txt_NumeroTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_TipoTelefono">
+	<summary>
+Control lbl_TipoTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.ddl_tipoTelefono">
+	<summary>
+Control ddl_tipoTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.btn_agregarTelefono">
+	<summary>
+Control btn_agregarTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_agregarTelefono">
+	<summary>
+Control lbl_agregarTelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_Imagen">
+	<summary>
+Control lbl_Imagen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.lbl_SeleccionarImagen">
+	<summary>
+Control lbl_SeleccionarImagen.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.fu_imagenUsuario">
+	<summary>
+Control fu_imagenUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.btn_agregar">
+	<summary>
+Control btn_agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.registrarUsuario.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.cab_agregarUsuario">
+	<summary>
+Control cab_agregarUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_NombredeUsuario">
+	<summary>
+Control lbl_NombredeUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.txt_nombreUsuario">
+	<summary>
+Control txt_nombreUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.requerido_txt_nombreUsuario">
+	<summary>
+Control requerido_txt_nombreUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.passAgregar">
+	<summary>
+Control passAgregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_password">
+	<summary>
+Control lbl_password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.txt_password">
+	<summary>
+Control txt_password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.requerido_txt_password">
+	<summary>
+Control requerido_txt_password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_repetirPassword">
+	<summary>
+Control lbl_repetirPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.txt_repetirPassword">
+	<summary>
+Control txt_repetirPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.Required_txt_repetirPassword">
+	<summary>
+Control Required_txt_repetirPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.passModificar">
+	<summary>
+Control passModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_NuevoPassword">
+	<summary>
+Control lbl_NuevoPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.chk_resetPassword">
+	<summary>
+Control chk_resetPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_documento">
+	<summary>
+Control lbl_documento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.txt_Documento">
+	<summary>
+Control txt_Documento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.Requiredtxt_Documento">
+	<summary>
+Control Requiredtxt_Documento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_perfil">
+	<summary>
+Control lbl_perfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.ddl_Perfiles">
+	<summary>
+Control ddl_Perfiles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.lbl_idioma">
+	<summary>
+Control lbl_idioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.ddl_Idiomas">
+	<summary>
+Control ddl_Idiomas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btnAgregar">
+	<summary>
+Control btnAgregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btn_agregar">
+	<summary>
+Control btn_agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btnModificar">
+	<summary>
+Control btnModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btn_Modificar">
+	<summary>
+Control btn_Modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AgregarUsuario.btn_cancelarModificar">
+	<summary>
+Control btn_cancelarModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.cab_cambiarIdioma">
+	<summary>
+Control cab_cambiarIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.lbl_Idioma">
+	<summary>
+Control lbl_Idioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.ddl_idiomas">
+	<summary>
+Control ddl_idiomas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.btn_modificar">
+	<summary>
+Control btn_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.cambiarIdioma.btn_Cancelar">
+	<summary>
+Control btn_Cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.cab_contacto">
+	<summary>
+Control cab_contacto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.requerido_txt_nombre">
+	<summary>
+Control requerido_txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_apellido">
+	<summary>
+Control lbl_apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_Apellido">
+	<summary>
+Control txt_Apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.Requiredtxt_Apellido">
+	<summary>
+Control Requiredtxt_Apellido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_Correo">
+	<summary>
+Control lbl_Correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_correo">
+	<summary>
+Control txt_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.RequiredFieldValidator1">
+	<summary>
+Control RequiredFieldValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_Telefono">
+	<summary>
+Control lbl_Telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_telefono">
+	<summary>
+Control txt_telefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.validartelefono">
+	<summary>
+Control validartelefono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_Titulo">
+	<summary>
+Control lbl_Titulo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_Titulo">
+	<summary>
+Control txt_Titulo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.RequiredFieldValidatortxt_Titulo">
+	<summary>
+Control RequiredFieldValidatortxt_Titulo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.lbl_mensaje">
+	<summary>
+Control lbl_mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.txt_Mensaje">
+	<summary>
+Control txt_Mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.RequiredFieldValidatortxt_Mensaje">
+	<summary>
+Control RequiredFieldValidatortxt_Mensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.btn_enviar">
+	<summary>
+Control btn_enviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Contacto.btn_Cancelar">
+	<summary>
+Control btn_Cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.cab_cambiarPassword">
+	<summary>
+Control cab_cambiarPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.lbl_passwordActual">
+	<summary>
+Control lbl_passwordActual.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.txt_passwordActual">
+	<summary>
+Control txt_passwordActual.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.requerido_txt_passwordActual">
+	<summary>
+Control requerido_txt_passwordActual.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.lbl_NuevoPassword">
+	<summary>
+Control lbl_NuevoPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.txt_nuevoPassword">
+	<summary>
+Control txt_nuevoPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.requerido_txt_nuevoPassword">
+	<summary>
+Control requerido_txt_nuevoPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.lbl_RepetirNuevoPassword">
+	<summary>
+Control lbl_RepetirNuevoPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.txt_repetirPassword">
+	<summary>
+Control txt_repetirPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.requerido_txt_repetirPassword">
+	<summary>
+Control requerido_txt_repetirPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.btn_modificarPass">
+	<summary>
+Control btn_modificarPass.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.CambiarPassword.btn_cancelarPass">
+	<summary>
+Control btn_cancelarPass.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.cab_VisualizarBitacora">
+	<summary>
+Control cab_VisualizarBitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.img_filtroUsuario">
+	<summary>
+Control img_filtroUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.lbl_porUsuario">
+	<summary>
+Control lbl_porUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.img_filtroFecha">
+	<summary>
+Control img_filtroFecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.lbl_porFecha">
+	<summary>
+Control lbl_porFecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.img_TipoPrioridad">
+	<summary>
+Control img_TipoPrioridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.lbl_TipoPrioridad">
+	<summary>
+Control lbl_TipoPrioridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.ddl_Usuario">
+	<summary>
+Control ddl_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.datepicker">
+	<summary>
+Control datepicker.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.ddl_Operacion">
+	<summary>
+Control ddl_Operacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.visualizarBitacora.gv_Bitacora">
+	<summary>
+Control gv_Bitacora.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.QuienesSomos.cab_quienessomos">
+	<summary>
+Control cab_quienessomos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.QuienesSomos.lbl_quienesomos">
+	<summary>
+Control lbl_quienesomos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.QuienesSomos.Image1">
+	<summary>
+Control Image1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.cab_Backup">
+	<summary>
+Control cab_Backup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.requerido_txt_nombre">
+	<summary>
+Control requerido_txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.lbl_Directorio">
+	<summary>
+Control lbl_Directorio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.txt_Directorio">
+	<summary>
+Control txt_Directorio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.RequiredFieldValidatortxt_Directorio">
+	<summary>
+Control RequiredFieldValidatortxt_Directorio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.btn_agregar">
+	<summary>
+Control btn_agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.administrarIdiomas.cab_adminIdioma">
+	<summary>
+Control cab_adminIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.administrarIdiomas.gv_Idiomas">
+	<summary>
+Control gv_Idiomas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.cab_AdminUsuario">
+	<summary>
+Control cab_AdminUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.img_filtroUsuario">
+	<summary>
+Control img_filtroUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.lbl_porUsuario">
+	<summary>
+Control lbl_porUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.img_information">
+	<summary>
+Control img_information.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.lbl_porDNI">
+	<summary>
+Control lbl_porDNI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.img_Estado">
+	<summary>
+Control img_Estado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.lbl_Estado">
+	<summary>
+Control lbl_Estado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.ddl_Usuario">
+	<summary>
+Control ddl_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.ddl_ApellidoyNombre">
+	<summary>
+Control ddl_ApellidoyNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.ddl_Operacion">
+	<summary>
+Control ddl_Operacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.btn_buscar">
+	<summary>
+Control btn_buscar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarUsuario.gv_Usuarios">
+	<summary>
+Control gv_Usuarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.cab_AgregarIdioma">
+	<summary>
+Control cab_AgregarIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.txt_NombreIdioma">
+	<summary>
+Control txt_NombreIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.lbl_cultura">
+	<summary>
+Control lbl_cultura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.ddl_cultura">
+	<summary>
+Control ddl_cultura.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.gv_Palabras">
+	<summary>
+Control gv_Palabras.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.addIdioma">
+	<summary>
+Control addIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.btn_agregar">
+	<summary>
+Control btn_agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.modifIdioma">
+	<summary>
+Control modifIdioma.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.btn_modificar">
+	<summary>
+Control btn_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarIdioma.btn_cancelarModif">
+	<summary>
+Control btn_cancelarModif.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.LogoMenu">
+	<summary>
+Control LogoMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.opcionesUsuario">
+	<summary>
+Control opcionesUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.img_Usuario">
+	<summary>
+Control img_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.lbl_NombredeUsuarioLogueado">
+	<summary>
+Control lbl_NombredeUsuarioLogueado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.lbl_apellidoyNombre">
+	<summary>
+Control lbl_apellidoyNombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.img_mensajes">
+	<summary>
+Control img_mensajes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.img_opciones">
+	<summary>
+Control img_opciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.img_logout">
+	<summary>
+Control img_logout.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.menuPrincipal">
+	<summary>
+Control menuPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.MenuLogin">
+	<summary>
+Control MenuLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.Image1">
+	<summary>
+Control Image1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.txt_usuario">
+	<summary>
+Control txt_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.Image2">
+	<summary>
+Control Image2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.txt_password">
+	<summary>
+Control txt_password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.ImageButton1">
+	<summary>
+Control ImageButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.miMenuVertical">
+	<summary>
+Control miMenuVertical.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.menuVertical">
+	<summary>
+Control menuVertical.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.miContenidoPagina">
+	<summary>
+Control miContenidoPagina.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Maestra.contenidoPagina">
+	<summary>
+Control contenidoPagina.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.cab_agregarPerfil">
+	<summary>
+Control cab_agregarPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.lbl_Nombre">
+	<summary>
+Control lbl_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.txt_nombre">
+	<summary>
+Control txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.requerido_txt_nombre">
+	<summary>
+Control requerido_txt_nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.lbl_Permisos">
+	<summary>
+Control lbl_Permisos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.treeviewPermisos">
+	<summary>
+Control treeviewPermisos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.agregar">
+	<summary>
+Control agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.btn_agregar">
+	<summary>
+Control btn_agregar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.modificar">
+	<summary>
+Control modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.btn_modificar">
+	<summary>
+Control btn_modificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.agregarPerfil.btn_cancelarModificar">
+	<summary>
+Control btn_cancelarModificar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore._error.img_error">
+	<summary>
+Control img_error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore._error.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore._error.lbl_TituloErrorGenerico">
+	<summary>
+Control lbl_TituloErrorGenerico.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:ShigamiAnimeStore.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:ShigamiAnimeStore.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:ShigamiAnimeStore.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:ShigamiAnimeStore.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:ShigamiAnimeStore.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:ShigamiAnimeStore.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.cab_Restore">
+	<summary>
+Control cab_Restore.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.lbl_SeleccionarArchivo">
+	<summary>
+Control lbl_SeleccionarArchivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.fu_Restore">
+	<summary>
+Control fu_Restore.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.btn_aceptar">
+	<summary>
+Control btn_aceptar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.btn_cancelar">
+	<summary>
+Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarPerfiles.cab_adminPerfil">
+	<summary>
+Control cab_adminPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.AdministrarPerfiles.gv_Perfiles">
+	<summary>
+Control gv_Perfiles.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.index.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.index.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.index.Button2">
+	<summary>
+Control Button2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.index.Button3">
+	<summary>
+Control Button3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.index.Button4">
+	<summary>
+Control Button4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.img_user">
+	<summary>
+Control img_user.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.lbl_Usuario">
+	<summary>
+Control lbl_Usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.txt_usuario">
+	<summary>
+Control txt_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.requerido_txt_usuario">
+	<summary>
+Control requerido_txt_usuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.img_pass">
+	<summary>
+Control img_pass.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.lbl_Correo">
+	<summary>
+Control lbl_Correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.txt_correo">
+	<summary>
+Control txt_correo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.RequiredFieldValidator2">
+	<summary>
+Control RequiredFieldValidator2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.RegularExpressionValidator1">
+	<summary>
+Control RegularExpressionValidator1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.recuperarClave.btn_recuperar">
+	<summary>
+Control btn_recuperar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

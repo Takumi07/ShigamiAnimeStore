@@ -1,0 +1,32 @@
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.Resources.resources
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.vbproj.GenerateResource.Cache
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.xml
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.xml
+C:\Users\stassara\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\bin\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\obj\Debug\ENTIDADES.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\obj\Debug\ENTIDADES.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\obj\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.xml
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.Resources.resources
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.vbproj.GenerateResource.Cache
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.xml
+C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.pdb

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DAL
+</name>
+</assembly>
+<members>
+<member name="M:DAL.Conexion.ExecuteDataTable(System.String,System.Collections.Hashtable)">
+	<summary>Para Realizar los SELECT</summary>
+	<param name="NombreStoreProcedure">Nombre del Store Procedure que se va a ejecutar</param>
+	<param name="SQLParameter">Parámetros de la consulta</param>
+</member><member name="M:DAL.Conexion.ExecuteNonQuery(System.String,System.Collections.Hashtable)">
+	<summary> Ejecuta una Consulta (Insert, Delete, Update)</summary>
+	<param name="NombreStoreProcedure">Nombre del Store Procedure que se va a ejecutar</param>
+	<param name="SQLParameter">Parámetros de la consulta</param>
+</member><member name="M:DAL.Conexion.ObtenerID(System.String,System.String)">
+	<summary>Retorna el ultimo ID de la Tabla </summary>
+	<param name="_paramTabla">La tabla que quiero el ID</param>
+	<param name="_paramCampoID">El campo ID de la tabla</param>
+</member><member name="M:DAL.Conexion.ExecuteDataTable(System.Data.SqlClient.SqlCommand)">
+	<summary>
+ Para Realizar los SELECT
+ </summary>
+	<param name="_paramComando"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:DAL.Conexion.ExecuteNonQuery(System.Data.SqlClient.SqlCommand)">
+	<summary> Ejecuta una Consulta (Insert, Delete, Update)</summary>
+	<param name="_paramComando"> le paso el comando ya con los parámetros agregados</param>
+</member><member name="M:DAL.Conexion.retornaComando(System.String)">
+	<summary> Retorna un objeto Comando</summary>
+	<param name="_paramcomando">String SQL</param>
+</member><member name="P:DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
