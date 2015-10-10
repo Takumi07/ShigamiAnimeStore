@@ -71,12 +71,22 @@
                         <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="7px" />
                     </asp:Menu>
                  </div>
-                <div id="MenuLogin" runat="server" class ="col-md-4" visible="true">
-                    <asp:Image ID="Image1" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/userH.png" />
-                    <asp:TextBox ID="txt_usuario"  runat="server" Width="116px"></asp:TextBox>
-                    <asp:Image ID="Image2" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/key-32.png" />
-                    <asp:TextBox ID="txt_password" runat="server" Width="116px" TextMode="Password"></asp:TextBox>
-                    <asp:ImageButton ID="ImageButton1" CssClass="ImagenLogin" runat="server" ImageUrl="~/Imagenes/Forward-32.png" />
+                <div id="MenuLogin" runat="server" class="col-md-4">
+                    <div class="col-md-1">
+                    <asp:Image ID="Image1" CssClass="ImagenLogin margenIconoLogin" runat="server" ImageUrl="~/Imagenes/userH.png" />
+                    </div>
+                    <div class="col-md-4">
+                                            <asp:TextBox ID="txt_usuario"  runat="server" cssclass="caja-texto margenIconoLogin"></asp:TextBox>
+                    </div>
+                    <div class="col-md-1 col-md-offset-1">
+                                            <asp:Image ID="Image2" CssClass="ImagenLogin margenIconoLogin" runat="server" ImageUrl="~/Imagenes/key-32.png" />
+                    </div>
+                    <div class="col-md-4">
+                                            <asp:TextBox ID="txt_password" runat="server" cssclass="caja-texto margenIconoLogin" TextMode="Password"></asp:TextBox>
+                    </div>
+                    <div class="col-md-1">
+                                            <asp:ImageButton ID="ImageButton1" CssClass="ImagenLogin margenIconoLogin" runat="server" ImageUrl="~/Imagenes/Forward-32.png" />
+                    </div>
                 </div>
              </div>
             <div class="fila fondoGris">            

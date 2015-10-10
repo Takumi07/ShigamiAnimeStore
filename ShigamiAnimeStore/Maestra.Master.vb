@@ -345,22 +345,23 @@ Public Class Maestra
 
     Private Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton1.Click
         Try
-            'validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
+            '    validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
             Dim _usu As ENTIDADES.Usuario = (New BLL.UsuarioBLL).Login(Me.txt_usuario.Text, Me.txt_password.Text)
             Session.Add("Usuario", _usu)
             Session.Timeout = 120
             'No me funco
             'MenuLogin.Visible = False
-            Me.Image1.Visible = False
-            Me.Image2.Visible = False
-            Me.txt_usuario.Visible = False
-            Me.txt_password.Visible = False
-            Me.ImageButton1.Visible = False
-
+            'Me.Image1.Visible = False
+            ' Me.Image2.Visible = False
+            'Me.txt_usuario.Visible = False
+            'Me.txt_password.Visible = False
+            'Me.ImageButton1.Visible = False
+            Me.MenuLogin.Visible = False
+            cargarMenuOpciones()
             'Agregado para Bitacora
             Dim MiSesion As BLL.SesionBLL = BLL.SesionBLL.Current
             MiSesion.Inicializar(_usu)
-            Response.Redirect("Index.aspx")
+            '    Response.Redirect("Index.aspx")
 
             'OJO ACA TENGO QUE REDIRECCIONAR A MI PÁGINA ERROR!!!
         Catch ex As BLL.CamposincompletosException

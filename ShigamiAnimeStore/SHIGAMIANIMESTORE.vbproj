@@ -200,6 +200,7 @@
       <DependentUpon>AgregarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="App_Code\validaciones.vb" />
     <Compile Include="cambiarIdioma.aspx.designer.vb">
       <DependentUpon>cambiarIdioma.aspx</DependentUpon>
     </Compile>

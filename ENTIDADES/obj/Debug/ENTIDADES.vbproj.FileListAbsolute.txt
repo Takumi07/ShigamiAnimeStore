@@ -30,3 +30,11 @@ C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.vbpro
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.dll
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.xml
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.pdb
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.dll
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.pdb
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\bin\Debug\ENTIDADES.xml
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.Resources.resources
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.vbproj.GenerateResource.Cache
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.dll
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.xml
+C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ENTIDADES\obj\Debug\ENTIDADES.pdb
