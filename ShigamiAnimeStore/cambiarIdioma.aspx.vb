@@ -2,9 +2,9 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        'Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
         If Not IsPostBack Then
             obtenerIdiomas()
             Me.ddl_idiomas.SelectedValue = DirectCast(Session("Usuario"), ENTIDADES.Usuario).Idioma.Nombre
@@ -21,7 +21,7 @@
 
     Protected Sub btn_modificar_Click(sender As Object, e As EventArgs) Handles btn_modificar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim _bllidioma As New BLL.IdiomaBLL
             Dim MiUsuarioEntidad As Entidades.Usuario = DirectCast(Session("Usuario"), Entidades.Usuario)
             Dim _idioma As Entidades.Idioma = _bllidioma.consultarIdioma(Me.ddl_idiomas.SelectedItem.ToString)

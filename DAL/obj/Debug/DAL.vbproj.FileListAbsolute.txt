@@ -30,3 +30,11 @@ C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\DAL\obj\Debug\DAL.vbproj.Genera
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\DAL\obj\Debug\DAL.dll
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\DAL\obj\Debug\DAL.xml
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\DAL\obj\Debug\DAL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\bin\Debug\DAL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\bin\Debug\DAL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\bin\Debug\DAL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\obj\Debug\DAL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\obj\Debug\DAL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\DAL\obj\Debug\DAL.pdb

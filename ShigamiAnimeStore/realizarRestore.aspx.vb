@@ -4,16 +4,16 @@
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        '    Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
     End Sub
 
 
 
     Protected Sub btn_aceptar_Click(sender As Object, e As EventArgs) Handles btn_aceptar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim Resultado As Boolean
             Dim MiBackupRestoreEntidad As New Entidades.BackupRestore
             Dim Path As String

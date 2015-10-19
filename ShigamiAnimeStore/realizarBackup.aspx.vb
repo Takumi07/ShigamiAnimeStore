@@ -3,16 +3,16 @@ Public Class realizarBackup
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        'Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
         Me.txt_Directorio.ReadOnly = True
         Me.txt_Directorio.Text = "C:\BCPSHIGAMIANIMESTORE\"
     End Sub
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim MiBackupRestoreBLL As New BLL.BackupRestoreBLL
             Dim MiBackupRestoreEntidad As New ENTIDADES.BackupRestore
             MiBackupRestoreEntidad.Directorio = txt_Directorio.Text

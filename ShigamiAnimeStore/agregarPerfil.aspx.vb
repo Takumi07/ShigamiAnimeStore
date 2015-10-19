@@ -4,9 +4,9 @@
     Private _listapermisos As List(Of ENTIDADES.PermisoBase)
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        'Response.Redirect("error.aspx")
-        ' End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
         Me.cargarTodos()
         If Not IsPostBack Then
             Me.CargarTreeView()
@@ -91,7 +91,7 @@
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             If validarListaPermisos() = True Then
                 Dim _entidadPermiso As New Entidades.PermisoCompuesto
                 _entidadPermiso.Nombre = txt_nombre.Text

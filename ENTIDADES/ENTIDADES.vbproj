@@ -79,6 +79,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Nacionalidad.vb" />
+    <Compile Include="Negocio\AnimeEntidad.vb" />
+    <Compile Include="Negocio\GeneroEntidad.vb" />
+    <Compile Include="Negocio\MangaEntidad.vb" />
+    <Compile Include="Negocio\ProductoEntidad.vb" />
+    <Compile Include="Negocio\TipoProductoEntidad.vb" />
     <Compile Include="Persona.vb" />
     <Compile Include="Provincia.vb" />
     <Compile Include="Seguridad\BackupRestore.vb" />

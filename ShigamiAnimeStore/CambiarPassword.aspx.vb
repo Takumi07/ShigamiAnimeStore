@@ -3,7 +3,7 @@
 
     Protected Sub btn_modificarPass_Click(sender As Object, e As EventArgs) Handles btn_modificarPass.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim _entidadUsuario As Entidades.Usuario = DirectCast(Session("Usuario"), Entidades.Usuario)
             If BLL.EncriptarBLL.EncriptarPass(Me.txt_passwordActual.Text) = _entidadUsuario.Password Then
                 If Me.txt_nuevoPassword.Text.Length >= 6 Then
@@ -40,9 +40,9 @@
 
 
     Private Sub cambiarPassword_Load(sender As Object, e As EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        'Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
 
     End Sub
 

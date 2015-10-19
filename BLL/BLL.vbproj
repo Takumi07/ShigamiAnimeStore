@@ -78,6 +78,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="NacionalidadBLL.vb" />
+    <Compile Include="Negocio\AnimeBLL.vb" />
+    <Compile Include="Negocio\GeneroBLL.vb" />
+    <Compile Include="Negocio\MangaBLL.vb" />
+    <Compile Include="Negocio\ProductoBLL.vb" />
+    <Compile Include="Negocio\TipoProductoBLL.vb" />
     <Compile Include="PersonaBLL.vb" />
     <Compile Include="ProvinciaBLL.vb" />
     <Compile Include="Seguridad\BackupRestoreBLL.vb" />
@@ -85,12 +90,14 @@
     <Compile Include="Seguridad\BoletinBLL.vb" />
     <Compile Include="Seguridad\ContactoBLL.vb" />
     <Compile Include="Seguridad\EncriptarBLL.vb" />
+    <Compile Include="Seguridad\Excepciones\ExcepcionBLL.vb" />
     <Compile Include="Seguridad\Excepciones\ExcepcionesPersonalizadas.vb" />
     <Compile Include="Seguridad\IdiomaBLL.vb" />
     <Compile Include="Seguridad\MailingBLL.vb" />
     <Compile Include="Seguridad\MensajeBLL.vb" />
     <Compile Include="Seguridad\PermisoBLL.vb" />
     <Compile Include="Seguridad\SesionBLL.vb" />
+    <Compile Include="Seguridad\Traductor.vb" />
     <Compile Include="Seguridad\UsuarioBLL.vb" />
   </ItemGroup>
   <ItemGroup>

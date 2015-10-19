@@ -79,6 +79,11 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="NacionalidadMPP.vb" />
+    <Compile Include="Negocio\AnimeMPP.vb" />
+    <Compile Include="Negocio\GeneroMPP.vb" />
+    <Compile Include="Negocio\MangaMPP.vb" />
+    <Compile Include="Negocio\ProductoMPP.vb" />
+    <Compile Include="Negocio\TipoProductoMPP.vb" />
     <Compile Include="PersonaMPP.vb" />
     <Compile Include="ProvinciaMPP.vb" />
     <Compile Include="Seguridad\BackupRestoreMPP.vb" />

@@ -2,8 +2,8 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Me.lbl_TituloErrorGenerico.Text = Session("Error").ToString
-        redireccionar()
+            Me.lbl_TituloErrorGenerico.Text = Session("Error").ToString
+            redireccionar()
     End Sub
 
 

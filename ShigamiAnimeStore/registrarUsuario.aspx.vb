@@ -64,7 +64,7 @@ Public Class registrarUsuario
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             If Me.txt_contraseña.Text > 6 Then
                 Dim MiPersona As New ENTIDADES.Persona
                 MiPersona.DNI = Me.txt_Documento.Text

@@ -6,6 +6,7 @@ Public Class Maestra
         If Not IsPostBack Then
             armarMenuBasico()
             If Not IsNothing(Session("Usuario")) Then
+                Me.MenuLogin.Visible = False
                 Me.menuPrincipal.Items.Clear()
                 ArmarMenuUsuario()
                 cargarMenuOpciones()
@@ -309,6 +310,9 @@ Public Class Maestra
         Else
             Me.img_Usuario.Src = "~/Imagenes/userh.png"
         End If
+
+        'AGREGADO PARA NO TENER MENSAJERÍA INTERNA
+        Me.img_mensajes.Visible = False
     End Sub
     Protected Sub img_logout_Click(sender As Object, e As ImageClickEventArgs)
         If Not IsNothing(Session("Usuario")) Then
@@ -345,7 +349,8 @@ Public Class Maestra
 
     Private Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton1.Click
         Try
-            '    validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
+            'VER COMO LE TIRO LA VALIDACIÓN!!!!!
+            'validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
             Dim _usu As ENTIDADES.Usuario = (New BLL.UsuarioBLL).Login(Me.txt_usuario.Text, Me.txt_password.Text)
             Session.Add("Usuario", _usu)
             Session.Timeout = 120

@@ -51,4 +51,28 @@
         End Try
     End Sub
 
+
+
+
+    'ver este método esta chamulletimo
+    Public Shared Sub GuardarBitacora(ByVal paramDetalle As String, ByVal paramIDTipoBitacora As Integer, ByVal paramNombreUsuario As String)
+        Try
+            Dim MiBitacoraDAL As New MAPPER.BitacoraMPP
+            Dim MiBitacoraEntidad As New ENTIDADES.Bitacora
+            With MiBitacoraEntidad
+                .TipoOperacion = paramIDTipoBitacora
+                .Descripcion = paramDetalle
+                .FechaHora = DateTime.Now
+                .TipoOperacion = ENTIDADES.Bitacora.tipoOperacionBitacora.Alta
+                Dim MiUsuario As New ENTIDADES.Usuario
+                MiUsuario.NombreUsuario = paramNombreUsuario
+                .Usuario = MiUsuario
+            End With
+            MiBitacoraDAL.altaBitacora(MiBitacoraEntidad)
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+
 End Class

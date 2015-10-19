@@ -1,9 +1,9 @@
 ﻿Public Class AgregarUsuario
     Inherits System.Web.UI.Page
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        'Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
         If Not IsPostBack Then
             obtenerFamilias()
             obtenerIdiomas()
@@ -53,7 +53,7 @@
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             If Me.txt_password.Text = Me.txt_repetirPassword.Text Then
                 If Me.txt_password.Text.Length >= 6 Then
                     Dim _usu As New Entidades.Usuario
@@ -114,7 +114,7 @@
     Protected Sub btn_Modificar_Click(sender As Object, e As EventArgs) Handles btn_Modificar.Click
         Dim _usuarioEditado As Entidades.Usuario = DirectCast(Session("UseraEditar"), Entidades.Usuario)
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim _usu As New Entidades.Usuario
             Dim _bllIdioma As New BLL.IdiomaBLL
             Dim _bllPerfil As New BLL.PermisoBLL

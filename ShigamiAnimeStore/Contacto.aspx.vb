@@ -6,7 +6,7 @@
     End Sub
     Protected Sub btn_enviar_Click(sender As Object, e As EventArgs) Handles btn_enviar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim MiContacto As New Entidades.Contacto
             MiContacto.Nombre = txt_nombre.Text
             MiContacto.Apellido = txt_Apellido.Text

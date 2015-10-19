@@ -2,10 +2,10 @@
 Imports System.Configuration
 Public Class Conexion
     'Facultad
-    Private Shared _objConexion As New SqlConnection("Data Source=335-14-71555\SQL_UAI;Initial Catalog=Servicios;Integrated Security=True")
+    'Private Shared _objConexion As New SqlConnection("Data Source=335-14-71555\SQL_UAI;Initial Catalog=Servicios;Integrated Security=True")
     'Trabajo
-    'Private Shared _objConexion As New SqlConnection("Data Source=.;Initial Catalog=Servicios;Integrated Security=True")
-    Private Shared _objConexionMaster As New SqlConnection("Data Source=.\SQL_UAI;Initial Catalog=master;Integrated Security=True")
+    Public Shared _objConexion As New SqlConnection("Data Source=.;Initial Catalog=Servicios;Integrated Security=True")
+    Public Shared _objConexionMaster As New SqlConnection("Data Source=.\SQL_UAI;Initial Catalog=master;Integrated Security=True")
     Private Shared _transaccion As SqlTransaction
     Private Shared _comando As SqlCommand
 

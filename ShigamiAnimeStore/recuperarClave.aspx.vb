@@ -3,7 +3,7 @@
 
     Protected Sub btn_recuperar_Click(sender As Object, e As EventArgs) Handles btn_recuperar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim MiUsuarioBLL As New BLL.UsuarioBLL
             Dim MiUsuarioEntidad As New Entidades.Usuario
             If MiUsuarioBLL.chequearUsuario(txt_usuario.Text) = False Then

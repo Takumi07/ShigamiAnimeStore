@@ -5,9 +5,9 @@ Public Class agregarIdioma
     Dim _listaPalabras As New List(Of ENTIDADES.Palabra)
     Dim _listaNuevaPalabras As New List(Of ENTIDADES.Palabra)
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If validaciones.validarPagina(Me) = False Then
-        '    Response.Redirect("error.aspx")
-        'End If
+        If validaciones.validarPagina(Me) = False Then
+            Response.Redirect("error.aspx")
+        End If
         _listaPalabras = DirectCast(Session("Usuario"), ENTIDADES.Usuario).Idioma.Palabras
         If Not IsPostBack Then
             cargarGridView()
@@ -131,7 +131,7 @@ Public Class agregarIdioma
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
-            'validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim _idioma As New ENTIDADES.Idioma
             Dim _bllidioma As New BLL.IdiomaBLL
             _idioma.Nombre = Me.txt_NombreIdioma.Text
