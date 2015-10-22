@@ -6,7 +6,21 @@ DAL
 </name>
 </assembly>
 <members>
-<member name="M:DAL.Conexion.ExecuteDataTable(System.String,System.Collections.Hashtable)">
+<member name="M:DAL.BD.ExecuteDataset(System.String)">
+	<summary> Método que devuelve un DataSet</summary>
+	<param name="paramcomandtext">Espera la sentencia sql</param>
+</member><member name="M:DAL.BD.ExecuteDataTable(System.Data.SqlClient.SqlCommand)">
+	<summary>Devuelve una tabla llena con la instr. SQL que se pasa por parámetro.</summary>
+	<param name="paramcomando">Obj Comando con parámetros agregados</param>
+</member><member name="M:DAL.BD.ExecuteNonQuery(System.Data.SqlClient.SqlCommand)">
+	<summary> Ejecuta una consulta (Delete, update)</summary>
+	<param name="paramcomando"> le paso el comando ya con los parámetros agregados</param>
+</member><member name="M:DAL.BD.MiConexion">
+	<summary> Retorna un objeto conexion instanciado, con el string de conexion utilizado.</summary>
+</member><member name="M:DAL.BD.MiComando(System.String)">
+	<summary> Retorna un objeto comando al cual se le pueden adjuntar los parametros correspondientes. </summary>
+	<param name="paramcomando">String SQL</param>
+</member><member name="M:DAL.Conexion.ExecuteDataTable(System.String,System.Collections.Hashtable)">
 	<summary>Para Realizar los SELECT</summary>
 	<param name="NombreStoreProcedure">Nombre del Store Procedure que se va a ejecutar</param>
 	<param name="SQLParameter">Parámetros de la consulta</param>

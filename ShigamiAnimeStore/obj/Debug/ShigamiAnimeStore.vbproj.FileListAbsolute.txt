@@ -42,28 +42,6 @@ C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ShigamiAnimeStore\obj\Debug\SHIGAMIAN
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.dll
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.xml
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll.config
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\SHIGAMIANIMESTORE.vbprojResolveAssemblyReference.cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.Resources.resources
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\SHIGAMIANIMESTORE.vbproj.GenerateResource.Cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.pdb
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll.config
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.pdb
@@ -108,3 +86,25 @@ C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.xml
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.dll
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.xml
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll.config
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ShigamiAnimeStore.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\BLL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\MAPPER.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\bin\DAL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\SHIGAMIANIMESTORE.vbprojResolveAssemblyReference.cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\SHIGAMIANIMESTORE.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\ShigamiAnimeStore\obj\Debug\ShigamiAnimeStore.pdb

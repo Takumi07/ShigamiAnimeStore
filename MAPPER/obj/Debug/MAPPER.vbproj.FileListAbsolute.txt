@@ -28,21 +28,6 @@ C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\MAPPER\obj\Debug\MAPPER.vbproj.Genera
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\MAPPER\obj\Debug\MAPPER.dll
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\MAPPER\obj\Debug\MAPPER.xml
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\MAPPER\obj\Debug\MAPPER.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.vbprojResolveAssemblyReference.cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.Resources.resources
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.vbproj.GenerateResource.Cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.pdb
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.dll
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.pdb
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.xml
@@ -73,3 +58,18 @@ C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.vbproj.
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.dll
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.xml
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\MAPPER.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\DAL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\bin\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.vbprojResolveAssemblyReference.cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\MAPPER\obj\Debug\MAPPER.pdb

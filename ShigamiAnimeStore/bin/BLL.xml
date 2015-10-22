@@ -6,7 +6,11 @@ BLL
 </name>
 </assembly>
 <members>
-<member name="P:BLL.My.Resources.Resources.ResourceManager">
+<member name="M:BLL.TipoProductoBLL.ListarTipoProducto">
+	<summary> Método que devuelve todos los Tipos de Productos </summary>
+</member><member name="M:BLL.GeneroBLL.ListarGeneros">
+	<summary> Método que devuelve todos los generos </summary>
+</member><member name="P:BLL.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

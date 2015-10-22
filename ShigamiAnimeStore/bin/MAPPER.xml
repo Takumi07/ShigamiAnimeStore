@@ -6,7 +6,24 @@ MAPPER
 </name>
 </assembly>
 <members>
-<member name="P:MAPPER.My.Resources.Resources.ResourceManager">
+<member name="M:MAPPER.ProductoMPP.GuardarCalificarNovedad(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.ProductoMPP.GuardarCalificarFlujoVenta(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.ProductoMPP.NuevoProducto(ENTIDADES.ProductoEntidad)">
+	<summary>Este método se encargará de persistir un producto.</summary>
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.GeneroMPP.ListarGeneros">
+	<summary> Método que devuelve todos los generos </summary>
+</member><member name="M:MAPPER.GeneroMPP.ObtenerGenerosEvento(System.Int32)">
+	<summary>Método que devuelve los generos asociados a un evento, según el ID de evento</summary>
+</member><member name="M:MAPPER.MangaMPP.GuardarCalificarNovedad(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.MangaMPP.NuevoProducto(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.TipoProductoMPP.ListarTipoProducto">
+	<summary> Método que devuelve todos los Tipos de productos </summary>
+</member><member name="P:MAPPER.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

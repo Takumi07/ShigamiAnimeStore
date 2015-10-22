@@ -93,6 +93,7 @@
   <ItemGroup>
     <Content Include="administrarIdiomas.aspx" />
     <Content Include="AdministrarPerfiles.aspx" />
+    <Content Include="administrarProductos.aspx" />
     <Content Include="AdministrarUsuario.aspx" />
     <Content Include="agregarIdioma.aspx" />
     <Content Include="agregarPerfil.aspx" />
@@ -148,6 +149,7 @@
     <Content Include="Index.aspx" />
     <Content Include="JS\jquery-ui.js" />
     <Content Include="Menu\Menu.xml" />
+    <Content Include="modificarProductos.aspx" />
     <Content Include="MuestraIndexx.aspx" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="realizarBackup.aspx" />
@@ -171,6 +173,13 @@
     <Compile Include="AdministrarPerfiles.aspx.vb">
       <DependentUpon>AdministrarPerfiles.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="administrarProductos.aspx.designer.vb">
+      <DependentUpon>administrarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrarProductos.aspx.vb">
+      <DependentUpon>administrarProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdministrarUsuario.aspx.designer.vb">
       <DependentUpon>AdministrarUsuario.aspx</DependentUpon>
@@ -234,6 +243,13 @@
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="modificarProductos.aspx.designer.vb">
+      <DependentUpon>modificarProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modificarProductos.aspx.vb">
+      <DependentUpon>modificarProductos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="MuestraIndexx.aspx.designer.vb">

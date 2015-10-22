@@ -34,24 +34,6 @@ C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\BLL\obj\Debug\BLL.vbproj.GenerateReso
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\BLL\obj\Debug\BLL.dll
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\BLL\obj\Debug\BLL.xml
 C:\Users\VM\Desktop\ShigamiAnimeStore V0.1\BLL\obj\Debug\BLL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.pdb
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.Resources.resources
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.dll
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.xml
-C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.pdb
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.dll
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.pdb
 C:\Users\Navegador\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.xml
@@ -88,3 +70,21 @@ C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\BLL\obj\Debug\BLL.vbproj.Genera
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\BLL\obj\Debug\BLL.dll
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\BLL\obj\Debug\BLL.xml
 C:\Users\Santiago\Source\Repos\ShigamiAnimeStore\BLL\obj\Debug\BLL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\BLL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\ENTIDADES.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\MAPPER.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.pdb
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\bin\Debug\DAL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.vbprojResolveAssemblyReference.cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.Resources.resources
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.vbproj.GenerateResource.Cache
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.dll
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.xml
+C:\Users\VM\Desktop\ShigamiAnimeStore\BLL\obj\Debug\BLL.pdb

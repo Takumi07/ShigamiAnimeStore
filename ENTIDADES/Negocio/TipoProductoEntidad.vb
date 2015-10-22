@@ -29,5 +29,12 @@
             vDescripcion = value
         End Set
     End Property
+
+
+
+    Public Overrides Function ToString() As String
+        Return Me.Descripcion
+    End Function
+
 End Class
 
