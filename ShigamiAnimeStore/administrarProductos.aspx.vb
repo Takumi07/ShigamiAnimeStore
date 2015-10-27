@@ -19,28 +19,18 @@ Public Class administrarProductos
                 Else
                     Me.HabilitarProducto()
                 End If
-                Me.Button3.Visible = False
                 Me.Button1.Visible = True
                 Me.Button2.Visible = True
+                Me.ddl_TipoProducto.Enabled = False
             Else
                 'Esto es un alta
-                Me.CargarGenero()
-                Me.CargarTProducto()
-                Me.ddl_TipoProducto.SelectedValue = "Figuras"
-                Me.HabilitarProductoAlta()
-                Me.Button1.Visible = False
-                Me.Button2.Visible = False
-                Me.Button3.Visible = True
+                Response.Redirect("modificarproductos.aspx")
             End If
 
         Else
             MiProductoEntidadGlobal = Session("Producto")
         End If
     End Sub
-
-
-
-
 
     Public Sub HabilitarProductoAlta()
         Me.Label1.Visible = False
@@ -50,10 +40,7 @@ Public Class administrarProductos
         Me.Label4.Visible = False
         Me.TextBox4.Visible = False
         Me.TextBox5.Visible = False
-
-        'ACA HAY QUE SACAR EL JQUERY
-        'Me.Calendar1.Visible = False
-
+        Me.datepicker.Visible = False
         Me.CheckBox1.Visible = False
     End Sub
 
@@ -73,8 +60,7 @@ Public Class administrarProductos
             Me.Label4.Visible = False
             Me.TextBox4.Visible = False
             Me.TextBox5.Visible = False
-            'ACA HAY QUE SACAR EL JQUERY
-            'Me.Calendar1.Visible = False
+            Me.datepicker.Visible = False
             Me.CheckBox1.Visible = False
         End If
     End Sub
@@ -95,6 +81,8 @@ Public Class administrarProductos
             Me.Label2.Visible = True
 
             'ACA HAY QUE SACAR EL JQUERY
+            Me.datepicker.Visible = True
+            Me.datepicker.Text = DirectCast(MiProductoEntidadGlobal, MangaEntidad).Fec_Salida_PTomo
             'Me.Calendar1.Visible = True
             'Me.Calendar1.SelectedDate = DirectCast(MiProductoEntidadGlobal, MangaEntidad).Fec_Salida_PTomo
             'Me.Calendar1.TodaysDate = DirectCast(MiProductoEntidadGlobal, MangaEntidad).Fec_Salida_PTomo
@@ -132,7 +120,7 @@ Public Class administrarProductos
             Me.Label2.Visible = False
 
             'ACA HAY QUE SACAR EL JQUERY
-            'Me.Calendar1.Visible = False
+            Me.datepicker.Visible = False
 
         End If
     End Sub
@@ -158,13 +146,13 @@ Public Class administrarProductos
 
         If ddl_TipoProducto.SelectedValue = "Manga" Then
             Me.ModificarManga()
-            Response.Redirect("SelModProducto.aspx")
+            Response.Redirect("modificarproductos.aspx")
         ElseIf ddl_TipoProducto.SelectedValue = "Anime" Then
             Me.ModificarAnime()
-            Response.Redirect("SelModProducto.aspx")
+            Response.Redirect("modificarproductos.aspx")
         Else
             Me.ModificarProducto()
-            Response.Redirect("SelModProducto.aspx")
+            Response.Redirect("modificarproductos.aspx")
         End If
 
     End Sub
@@ -173,15 +161,16 @@ Public Class administrarProductos
     Private Sub ModificarProducto()
         Try
             Dim MiProductoBLL As New ProductoBLL
-            txt_descripcion.Text = MiProductoEntidadGlobal.Descripcion
-            ddl_TipoProducto.SelectedValue = MiProductoEntidadGlobal.TipoProducto.Descripcion
-            ddl_Genero.SelectedValue = MiProductoEntidadGlobal.Genero.Descripcion
-            txt_precio.Text = MiProductoEntidadGlobal.Precio
-            txt_Stock.Text = MiProductoEntidadGlobal.Stock
+            MiProductoEntidadGlobal.Descripcion = txt_descripcion.Text
+            MiProductoEntidadGlobal.TipoProducto = Me.BuscarTipoProducto(ddl_TipoProducto.SelectedValue)
+            MiProductoEntidadGlobal.Genero = Me.BuscarGenero(ddl_Genero.SelectedValue)
+            MiProductoEntidadGlobal.Precio = txt_precio.Text
+            MiProductoEntidadGlobal.Stock = txt_Stock.Text
             MiProductoBLL.Modificar(MiProductoEntidadGlobal)
         Catch MiExepcionModificarProducto As ExepcionModificarProducto
 
         Catch ex As Exception
+            Throw ex
         End Try
     End Sub
 
@@ -239,8 +228,7 @@ Public Class administrarProductos
             MiMangaEntidad.N_Tomo = TextBox4.Text
 
             'VER EL JQRY!
-            'MiMangaEntidad.Fec_Salida_PTomo = Calendar1.SelectedDate
-
+            MiMangaEntidad.Fec_Salida_PTomo = Convert.ToDateTime(Me.datepicker.Text)
             MiMangaBLL.Modificar(MiMangaEntidad)
         Catch ex As Exception
 
@@ -282,67 +270,10 @@ Public Class administrarProductos
                 Dim MiProductoBLL As New ProductoBLL
                 MiProductoBLL.Baja(MiProductoEntidadGlobal)
             End If
-            Response.Redirect("SelModProducto.aspx")
+            Response.Redirect("modificarproductos.aspx")
         Catch ex As Exception
 
         End Try
-    End Sub
-
-    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        If ddl_TipoProducto.SelectedValue = "Manga" Then
-            Dim MiMangaBLL As New MangaBLL
-            Dim MiMangaEntidad As New MangaEntidad
-            MiMangaEntidad.Fecha_Salida = Date.Today
-            MiMangaEntidad.Fecha_Arribo_Sucursal = Date.Today
-            MiMangaEntidad.Descripcion = txt_descripcion.Text
-            MiMangaEntidad.TipoProducto = Me.BuscarTipoProducto(Me.ddl_TipoProducto.SelectedValue)
-            MiMangaEntidad.Genero = Me.BuscarGenero(Me.ddl_Genero.SelectedValue)
-            MiMangaEntidad.Precio = txt_precio.Text
-            MiMangaEntidad.Stock = txt_Stock.Text
-            MiMangaEntidad.N_Tomo = TextBox4.Text
-
-            'ver jquery
-            'MiMangaEntidad.Fec_Salida_PTomo = Calendar1.SelectedDate
-
-            MiMangaBLL.Guardar(MiMangaEntidad)
-            'Ojo no debería ir aca porque es un alta
-            'Response.Redirect("SelModProducto.aspx")
-
-        ElseIf ddl_TipoProducto.SelectedValue = "Anime" Then
-            Dim MiAnimeBLL As New AnimeBLL
-            Dim MiAnimeEntidad As New AnimeEntidad
-            MiAnimeEntidad.Fecha_Arribo_Sucursal = Date.Today
-            MiAnimeEntidad.Fecha_Salida = Date.Today
-            MiAnimeEntidad.Descripcion = txt_descripcion.Text
-            MiAnimeEntidad.TipoProducto = Me.BuscarTipoProducto(Me.ddl_TipoProducto.SelectedValue)
-            MiAnimeEntidad.Genero = Me.BuscarGenero(Me.ddl_Genero.SelectedValue)
-            MiAnimeEntidad.Precio = txt_precio.Text
-            MiAnimeEntidad.Stock = txt_Stock.Text
-            MiAnimeEntidad.N_DVD = TextBox4.Text
-            MiAnimeEntidad.Cantidad = TextBox5.Text
-            MiAnimeEntidad.Temporada_Completa = CheckBox1.Checked
-            MiAnimeBLL.Guardar(MiAnimeEntidad)
-            'Ojo no debería ir aca porque es un alta
-            'Response.Redirect("SelModProducto.aspx")
-        Else
-            Try
-                Dim MiProductoBLL As New ProductoBLL
-                Dim MiProductoEntidad As New ProductoEntidad
-                MiProductoEntidad.Descripcion = txt_descripcion.Text
-                MiProductoEntidad.TipoProducto = Me.BuscarTipoProducto(Me.ddl_TipoProducto.SelectedValue)
-                MiProductoEntidad.Genero = Me.BuscarGenero(Me.ddl_Genero.SelectedValue)
-                MiProductoEntidad.Precio = txt_precio.Text
-                MiProductoEntidad.Stock = txt_Stock.Text
-                MiProductoEntidad.Fecha_Salida = Date.Today
-                MiProductoEntidad.Fecha_Arribo_Sucursal = Date.Today
-                MiProductoBLL.Guardar(MiProductoEntidad)
-                'Ojo no debería ir aca porque es un alta
-                'Response.Redirect("SelModProducto.aspx")
-            Catch MiExepcionModificarProducto As ExepcionModificarProducto
-
-            Catch ex As Exception
-            End Try
-        End If
     End Sub
 
     Private Sub ddl_TipoProducto_TextChanged(sender As Object, e As EventArgs) Handles ddl_TipoProducto.TextChanged
@@ -352,10 +283,8 @@ Public Class administrarProductos
             Me.TextBox4.Visible = True
             Me.Label2.Text = "Fecha Salida P. Tomo"
             Me.Label2.Visible = True
-
             'ver lo del jquery
-            'Me.Calendar1.Visible = True
-
+            Me.datepicker.Visible = True
             Me.Label4.Visible = False
             Me.CheckBox1.Visible = False
             Me.Label3.Visible = False
@@ -372,17 +301,12 @@ Public Class administrarProductos
             Me.CheckBox1.Visible = True
             'Oculto Calendar
             Me.Label2.Visible = False
-
-            'ver lo del jquery
-            'Me.Calendar1.Visible = False
+            Me.datepicker.Visible = False
         Else
             Me.Label1.Visible = False
             Me.TextBox4.Visible = False
             Me.Label2.Visible = False
-
-            'ver lo del jquery
-            'Me.Calendar1.Visible = False
-
+            Me.datepicker.Visible = False
             Me.Label3.Visible = False
             Me.TextBox5.Visible = False
             Me.Label4.Visible = False

@@ -1,16 +1,8 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Data.Sql
+Imports System.Configuration
 
 Public Class BD
-
-#Region "No serìa mas necesario"
-    'Facultad
-    'Public Shared StrConect As String = "Data Source=.\SQL_UAI;Initial Catalog='ShigamiAnimeStore';Integrated Security=True"
-    'Trabajo
-    'Public Shared StrConect As String = "Data Source=VIRTUALM\SQLEXPRESS;Initial Catalog='ShigamiAnimeStore';Integrated Security=True"
-    'Casa
-    'Public Shared StrConect As String = "Data Source=TAKUMI\SQLEXPRESS;Initial Catalog=ShigamiAnimeStore;Integrated Security=True"
-#End Region
 
 #Region "ExecuteDataSet - Creo no usarlo"
     ''' <summary> Método que devuelve un DataSet</summary>
@@ -91,14 +83,12 @@ Public Class BD
 
     ''' <summary> Retorna un objeto conexion instanciado, con el string de conexion utilizado.</summary>
     Shared Function MiConexion() As SqlConnection
-        'Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProvider").ConnectionString)
-        Dim MiConecction = Conexion._objConexion
+        Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProvider").ConnectionString)
         Return MiConecction
     End Function
 
     Shared Function MiConexionMaster() As SqlConnection
-        ' Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProviderMaster").ConnectionString)
-        Dim MiConecction = Conexion._objConexionMaster
+        Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProviderMaster").ConnectionString)
         Return MiConecction
     End Function
 

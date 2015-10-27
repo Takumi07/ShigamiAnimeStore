@@ -7,35 +7,41 @@ Public Class ProductoMPP
 
 
     Public Function ListarProductos() As List(Of ProductoEntidad)
-        Dim MiComandoStr As String = "Select * from Producto where bl=@bl"
-        Dim MiComando = BD.MiComando(MiComandoStr)
-        Dim MiDataTable As New DataTable
-        Dim MiListaProductoEntidad As New List(Of ProductoEntidad)
-        With MiComando.Parameters
-            .Add(New SqlParameter("@bl", 0))
-        End With
-        MiDataTable = BD.ExecuteDataTable(MiComando)
-        For Each MiRow As DataRow In MiDataTable.Rows
-            If MiRow(2) = 1 Then
-                'Esto quiere decir que es un Manga = 1
-                Dim MiMangaEntidad As New MangaEntidad
-                'Aca le asigno todos los atributos que tiene en común con Producto así no tipeo al pedo.
-                MiMangaEntidad = (New MAPPER.MangaMPP).ObtenerUnManga(MiRow(0))
-                FormatearProducto(MiRow, MiMangaEntidad)
-                MiListaProductoEntidad.Add(MiMangaEntidad)
-            ElseIf MiRow(2) = 2 Then
-                'Esto quiere decir que es un Anime = 2
-                Dim MiAnimeEntidad As New AnimeEntidad
-                MiAnimeEntidad = (New MAPPER.AnimeMPP).ObtenerUnAnime(MiRow(0))
-                FormatearProducto(MiRow, MiAnimeEntidad)
-                MiListaProductoEntidad.Add(MiAnimeEntidad)
-            Else
-                Dim MiProductoEntidad As New ProductoEntidad
-                FormatearProducto(MiRow, MiProductoEntidad)
-                MiListaProductoEntidad.Add(MiProductoEntidad)
-            End If
-        Next
-        Return MiListaProductoEntidad
+        Try
+
+
+            Dim MiComandoStr As String = "Select * from Producto where bl=@bl"
+            Dim MiComando = BD.MiComando(MiComandoStr)
+            Dim MiDataTable As New DataTable
+            Dim MiListaProductoEntidad As New List(Of ProductoEntidad)
+            With MiComando.Parameters
+                .Add(New SqlParameter("@bl", 0))
+            End With
+            MiDataTable = BD.ExecuteDataTable(MiComando)
+            For Each MiRow As DataRow In MiDataTable.Rows
+                If MiRow(2) = 1 Then
+                    'Esto quiere decir que es un Manga = 1
+                    Dim MiMangaEntidad As New MangaEntidad
+                    'Aca le asigno todos los atributos que tiene en común con Producto así no tipeo al pedo.
+                    MiMangaEntidad = (New MAPPER.MangaMPP).ObtenerUnManga(MiRow(0))
+                    FormatearProducto(MiRow, MiMangaEntidad)
+                    MiListaProductoEntidad.Add(MiMangaEntidad)
+                ElseIf MiRow(2) = 2 Then
+                    'Esto quiere decir que es un Anime = 2
+                    Dim MiAnimeEntidad As New AnimeEntidad
+                    MiAnimeEntidad = (New MAPPER.AnimeMPP).ObtenerUnAnime(MiRow(0))
+                    FormatearProducto(MiRow, MiAnimeEntidad)
+                    MiListaProductoEntidad.Add(MiAnimeEntidad)
+                Else
+                    Dim MiProductoEntidad As New ProductoEntidad
+                    FormatearProducto(MiRow, MiProductoEntidad)
+                    MiListaProductoEntidad.Add(MiProductoEntidad)
+                End If
+            Next
+            Return MiListaProductoEntidad
+        Catch ex As Exception
+            Throw ex
+        End Try
     End Function
 
     'Me interessa cosumir esto desde la clase PromociónDAL dado que en la misma se carga una lista

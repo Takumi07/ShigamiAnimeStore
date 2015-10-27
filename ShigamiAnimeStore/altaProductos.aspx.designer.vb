@@ -11,7 +11,25 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class administrarProductos
+Partial Public Class altaProductos
+
+    '''<summary>
+    '''Control error.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents [error] As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Control lbl_TituloError.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lbl_TituloError As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control cab_adminPerfil.
@@ -39,6 +57,15 @@ Partial Public Class administrarProductos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txt_descripcion As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control requerido_txt_descripcion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents requerido_txt_descripcion As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control lbl_TipoProducto.
@@ -95,6 +122,15 @@ Partial Public Class administrarProductos
     Protected WithEvents txt_precio As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control requiere_txt_precio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents requiere_txt_precio As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''Control lbl_Stock.
     '''</summary>
     '''<remarks>
@@ -111,6 +147,15 @@ Partial Public Class administrarProductos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txt_Stock As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control Req_txt_Stock.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Req_txt_Stock As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control Label1.
@@ -131,6 +176,15 @@ Partial Public Class administrarProductos
     Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control requ_TextBox4.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents requ_TextBox4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''Control Label2.
     '''</summary>
     '''<remarks>
@@ -147,6 +201,15 @@ Partial Public Class administrarProductos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents datepicker As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control req_datepicker.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents req_datepicker As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control Label3.
@@ -167,6 +230,15 @@ Partial Public Class administrarProductos
     Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Control req_TextBox5.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents req_TextBox5 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
     '''Control Label4.
     '''</summary>
     '''<remarks>
@@ -185,20 +257,11 @@ Partial Public Class administrarProductos
     Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''Control Button1.
+    '''Control Button3.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control Button2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
 End Class

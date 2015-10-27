@@ -93,6 +93,7 @@
   <ItemGroup>
     <Content Include="administrarIdiomas.aspx" />
     <Content Include="AdministrarPerfiles.aspx" />
+    <Content Include="altaProductos.aspx" />
     <Content Include="administrarProductos.aspx" />
     <Content Include="AdministrarUsuario.aspx" />
     <Content Include="agregarIdioma.aspx" />
@@ -173,6 +174,13 @@
     <Compile Include="AdministrarPerfiles.aspx.vb">
       <DependentUpon>AdministrarPerfiles.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="altaProductos.aspx.designer.vb">
+      <DependentUpon>altaProductos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="altaProductos.aspx.vb">
+      <DependentUpon>altaProductos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="administrarProductos.aspx.designer.vb">
       <DependentUpon>administrarProductos.aspx</DependentUpon>

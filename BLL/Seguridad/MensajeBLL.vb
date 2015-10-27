@@ -37,14 +37,14 @@
         End Try
     End Sub
 
-    Public Function obtenerCantidadNoLeidos(ByVal paramUsuario As Entidades.Usuario) As Integer
-        Try
-            Dim _mensajempp As New Mapper.MensajeMPP
-            Return _mensajempp.obtenerCantidadNoLeidos(paramUsuario)
-        Catch ex As Exception
-            Throw ex
-        End Try
-    End Function
+    'Public Function obtenerCantidadNoLeidos(ByVal paramUsuario As Entidades.Usuario) As Integer
+    '    Try
+    '        Dim _mensajempp As New Mapper.MensajeMPP
+    '        Return _mensajempp.obtenerCantidadNoLeidos(paramUsuario)
+    '    Catch ex As Exception
+    '        Throw ex
+    '    End Try
+    'End Function
 
     Public Function obtenerMensajes(ByVal paramUsuario As Entidades.Usuario) As List(Of Entidades.Mensaje)
         Try

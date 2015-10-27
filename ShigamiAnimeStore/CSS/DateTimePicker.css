@@ -7,7 +7,7 @@
 .ui-datepicker .ui-datepicker-header {
 	position: relative;
 	padding: .2em 0;
-    background-color:#01909E;
+    background-color:#E66665;
     font-family:'Estrangelo Edessa';
     font-size:16px;
     font-weight:bold;   
@@ -103,7 +103,7 @@
 }
 
 .ui-datepicker td a:hover {
-    background-color:#01909E;
+    background-color:#E66665;
     color:white;
 }
 .ui-datepicker .ui-datepicker-buttonpane {

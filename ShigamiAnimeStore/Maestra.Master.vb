@@ -298,9 +298,9 @@ Public Class Maestra
     Private Sub cargarMenuOpciones()
         Me.opcionesUsuario.Visible = True
         Dim _bllMensaje As New BLL.MensajeBLL
-        If _bllMensaje.obtenerCantidadNoLeidos(DirectCast(Session("Usuario"), ENTIDADES.Usuario)) = 0 Then
-            img_mensajes.ImageUrl = "~/Imagenes/Message-already-read-32.png"
-        End If
+        'If _bllMensaje.obtenerCantidadNoLeidos(DirectCast(Session("Usuario"), ENTIDADES.Usuario)) = 0 Then
+        '    img_mensajes.ImageUrl = "~/Imagenes/Message-already-read-32.png"
+        'End If
         Me.lbl_apellidoyNombre.Text = DirectCast(Session("Usuario"), ENTIDADES.Usuario).Persona.ToString
         Me.lbl_NombredeUsuarioLogueado.Text = DirectCast(Session("Usuario"), ENTIDADES.Usuario).NombreUsuario
 
