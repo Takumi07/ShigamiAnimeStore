@@ -366,7 +366,7 @@ Public Class Maestra
             'Agregado para Bitacora
             Dim MiSesion As BLL.SesionBLL = BLL.SesionBLL.Current
             MiSesion.Inicializar(_usu)
-            '    Response.Redirect("Index.aspx")
+            Response.Redirect("Index.aspx")
 
             'OJO ACA TENGO QUE REDIRECCIONAR A MI PÁGINA ERROR!!!
         Catch ex As BLL.CamposincompletosException

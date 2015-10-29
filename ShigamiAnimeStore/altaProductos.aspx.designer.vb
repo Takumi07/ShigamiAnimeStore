@@ -176,15 +176,6 @@ Partial Public Class altaProductos
     Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control requ_TextBox4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents requ_TextBox4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-
-    '''<summary>
     '''Control Label2.
     '''</summary>
     '''<remarks>
@@ -203,15 +194,6 @@ Partial Public Class altaProductos
     Protected WithEvents datepicker As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control req_datepicker.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents req_datepicker As Global.System.Web.UI.WebControls.RequiredFieldValidator
-
-    '''<summary>
     '''Control Label3.
     '''</summary>
     '''<remarks>
@@ -228,15 +210,6 @@ Partial Public Class altaProductos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control req_TextBox5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents req_TextBox5 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control Label4.

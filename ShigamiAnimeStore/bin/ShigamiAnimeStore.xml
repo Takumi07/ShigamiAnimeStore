@@ -6,231 +6,7 @@ ShigamiAnimeStore
 </name>
 </assembly>
 <members>
-<member name="F:ShigamiAnimeStore.altaProductos.error">
-	<summary>
-Control error.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_TituloError">
-	<summary>
-Control lbl_TituloError.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.cab_adminPerfil">
-	<summary>
-Control cab_adminPerfil.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Descripcion">
-	<summary>
-Control lbl_Descripcion.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.txt_descripcion">
-	<summary>
-Control txt_descripcion.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.requerido_txt_descripcion">
-	<summary>
-Control requerido_txt_descripcion.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_TipoProducto">
-	<summary>
-Control lbl_TipoProducto.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.ddl_TipoProducto">
-	<summary>
-Control ddl_TipoProducto.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Genero">
-	<summary>
-Control lbl_Genero.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.ddl_Genero">
-	<summary>
-Control ddl_Genero.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Precio">
-	<summary>
-Control lbl_Precio.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.txt_precio">
-	<summary>
-Control txt_precio.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.requiere_txt_precio">
-	<summary>
-Control requiere_txt_precio.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Stock">
-	<summary>
-Control lbl_Stock.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.txt_Stock">
-	<summary>
-Control txt_Stock.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Req_txt_Stock">
-	<summary>
-Control Req_txt_Stock.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Label1">
-	<summary>
-Control Label1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.TextBox4">
-	<summary>
-Control TextBox4.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.requ_TextBox4">
-	<summary>
-Control requ_TextBox4.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Label2">
-	<summary>
-Control Label2.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.datepicker">
-	<summary>
-Control datepicker.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.req_datepicker">
-	<summary>
-Control req_datepicker.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Label3">
-	<summary>
-Control Label3.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.TextBox5">
-	<summary>
-Control TextBox5.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.req_TextBox5">
-	<summary>
-Control req_TextBox5.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Label4">
-	<summary>
-Control Label4.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.CheckBox1">
-	<summary>
-Control CheckBox1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.altaProductos.Button3">
-	<summary>
-Control Button3.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
+<member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
 	<summary>
 Control cab_productos.
 </summary>
@@ -993,6 +769,206 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ShigamiAnimeStore.registrarUsuario.btn_cancelar">
 	<summary>
 Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.error">
+	<summary>
+Control error.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_TituloError">
+	<summary>
+Control lbl_TituloError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.cab_adminPerfil">
+	<summary>
+Control cab_adminPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Descripcion">
+	<summary>
+Control lbl_Descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.txt_descripcion">
+	<summary>
+Control txt_descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.requerido_txt_descripcion">
+	<summary>
+Control requerido_txt_descripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_TipoProducto">
+	<summary>
+Control lbl_TipoProducto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.ddl_TipoProducto">
+	<summary>
+Control ddl_TipoProducto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Genero">
+	<summary>
+Control lbl_Genero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.ddl_Genero">
+	<summary>
+Control ddl_Genero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Precio">
+	<summary>
+Control lbl_Precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.txt_precio">
+	<summary>
+Control txt_precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.requiere_txt_precio">
+	<summary>
+Control requiere_txt_precio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.lbl_Stock">
+	<summary>
+Control lbl_Stock.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.txt_Stock">
+	<summary>
+Control txt_Stock.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Req_txt_Stock">
+	<summary>
+Control Req_txt_Stock.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.TextBox4">
+	<summary>
+Control TextBox4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.datepicker">
+	<summary>
+Control datepicker.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.TextBox5">
+	<summary>
+Control TextBox5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Label4">
+	<summary>
+Control Label4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.CheckBox1">
+	<summary>
+Control CheckBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.altaProductos.Button3">
+	<summary>
+Control Button3.
 </summary>
 	<remarks>
 Campo generado automáticamente.

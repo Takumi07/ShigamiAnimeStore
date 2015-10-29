@@ -67,6 +67,11 @@ Public Class altaProductos
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
 
             If ddl_TipoProducto.SelectedValue = "Manga" Then
+
+                'Validación de los controles propios del manga
+                If TextBox4.Text = "" Or datepicker.Text = "" Then
+                    Throw New CamposincompletosException
+                End If
                 Dim MiMangaBLL As New MangaBLL
                 Dim MiMangaEntidad As New MangaEntidad
                 MiMangaEntidad.Fecha_Salida = Date.Today
@@ -77,15 +82,17 @@ Public Class altaProductos
                 MiMangaEntidad.Precio = txt_precio.Text
                 MiMangaEntidad.Stock = txt_Stock.Text
                 MiMangaEntidad.N_Tomo = TextBox4.Text
-
                 'ver jquery
                 MiMangaEntidad.Fec_Salida_PTomo = datepicker.Text
-
                 MiMangaBLL.Guardar(MiMangaEntidad)
                 'Ojo no debería ir aca porque es un alta
-                'Response.Redirect("modificarproductos.aspx")
+                Response.Redirect("modificarproductos.aspx")
 
             ElseIf ddl_TipoProducto.SelectedValue = "Anime" Then
+                If TextBox4.Text = "" Or TextBox5.Text = "" Then
+                    Throw New CamposincompletosException
+                End If
+
                 Dim MiAnimeBLL As New AnimeBLL
                 Dim MiAnimeEntidad As New AnimeEntidad
                 MiAnimeEntidad.Fecha_Arribo_Sucursal = Date.Today
@@ -100,7 +107,7 @@ Public Class altaProductos
                 MiAnimeEntidad.Temporada_Completa = CheckBox1.Checked
                 MiAnimeBLL.Guardar(MiAnimeEntidad)
                 'Ojo no debería ir aca porque es un alta
-                'Response.Redirect("modificarproductos.aspx")
+                Response.Redirect("modificarproductos.aspx")
             Else
                 Dim MiProductoBLL As New ProductoBLL
                 Dim MiProductoEntidad As New ProductoEntidad
@@ -113,7 +120,7 @@ Public Class altaProductos
                 MiProductoEntidad.Fecha_Arribo_Sucursal = Date.Today
                 MiProductoBLL.Guardar(MiProductoEntidad)
                 'Ojo no debería ir aca porque es un alta
-                'Response.Redirect("modificarproductos.aspx")
+                Response.Redirect("modificarproductos.aspx")
             End If
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True

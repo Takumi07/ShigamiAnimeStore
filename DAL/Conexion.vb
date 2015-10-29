@@ -1,19 +1,17 @@
 ﻿Imports System.Data.SqlClient
 Imports System.Configuration
 Public Class Conexion
+
+
+    Private Shared _objConexion As New SqlConnection("Data Source=.;Initial Catalog=Servicios;Integrated Security=True")
+    Private Shared _objConexionMaster As New SqlConnection("Data Source=.;Initial Catalog=master;Integrated Security=True")
     Private Shared _transaccion As SqlTransaction
     Private Shared _comando As SqlCommand
 
+
     Shared Function retornaConexionMaestra() As SqlConnection
-        Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProviderMaster").ConnectionString)
-        Return MiConecction
+        Return _objConexionMaster
     End Function
-
-    Shared Function retornaConexion() As SqlConnection
-        Dim MiConecction = New SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings("SQLProvider").ConnectionString)
-        Return MiConecction
-    End Function
-
 
 
     ''' <summary>Para Realizar los SELECT</summary>
@@ -21,12 +19,9 @@ Public Class Conexion
     ''' <param name="SQLParameter">Parámetros de la consulta</param>
     Public Shared Function ExecuteDataTable(ByVal NombreStoreProcedure As String, ByVal SQLParameter As Hashtable) As DataTable
         Try
-            Dim MiConexion As SqlConnection
-            MiConexion = retornaConexion()
-
             Dim _dataTable As New DataTable
             _comando = New SqlCommand
-            _comando.Connection = MiConexion
+            _comando.Connection = _objConexion
             _comando.CommandText = NombreStoreProcedure
             _comando.CommandType = CommandType.StoredProcedure
 
@@ -50,17 +45,13 @@ Public Class Conexion
     ''' <param name="SQLParameter">Parámetros de la consulta</param>
     Public Shared Function ExecuteNonQuery(ByVal NombreStoreProcedure As String, ByVal SQLParameter As Hashtable) As Integer
         Try
-            Dim MiConexion As SqlConnection
-            MiConexion = retornaConexion()
-
-
-            If MiConexion.State = ConnectionState.Closed Then
-                MiConexion.Open()
+            If _objConexion.State = ConnectionState.Closed Then
+                _objConexion.Open()
             End If
 
-            _transaccion = MiConexion.BeginTransaction
+            _transaccion = _objConexion.BeginTransaction
             _comando = New SqlCommand
-            _comando.Connection = MiConexion
+            _comando.Connection = _objConexion
             _comando.CommandText = NombreStoreProcedure
             _comando.CommandType = CommandType.StoredProcedure
             _comando.Transaction = _transaccion
@@ -79,12 +70,12 @@ Public Class Conexion
 
             Return respuesta
 
-
         Catch ex As Exception
+            'Agrego el rollback
             _transaccion.Rollback()
             Throw New Exception(ex.Message)
         Finally
-
+            _objConexion.Close()
         End Try
     End Function
 
@@ -92,19 +83,22 @@ Public Class Conexion
     ''' <param name="_paramTabla">La tabla que quiero el ID</param>
     ''' <param name="_paramCampoID">El campo ID de la tabla</param>
     Shared Function ObtenerID(ByVal _paramTabla As String, ByVal _paramCampoID As String) As Integer
-        Dim MiConexion As SqlConnection
-        MiConexion = retornaConexion()
-        If MiConexion.State = ConnectionState.Closed Then
-            MiConexion.Open()
+        If _objConexion.State = ConnectionState.Closed Then
+            _objConexion.Open()
         End If
 
         _comando = New SqlCommand
-        _comando.Connection = MiConexion
+        _comando.Connection = _objConexion
         _comando.CommandText = "ObtenerID"
         _comando.CommandType = CommandType.StoredProcedure
 
         _comando.Parameters.Add(New SqlParameter("@paramTabla", _paramTabla))
         _comando.Parameters.Add(New SqlParameter("@paramCampoID", _paramCampoID))
+
+
+
+        'Ojo esto no lo borré porque es la consulta que hay que poner en el stored procedure
+        'Dim _dataAdapter As New SqlDataAdapter(retornaComando("Select Top(1) " & _paramCampoID & " from " & _paramTabla & " order by " & _paramCampoID & " Desc"))
 
         Dim _dataTable As New DataTable
         Dim _resultado As Integer
@@ -117,7 +111,6 @@ Public Class Conexion
         End If
         Return _resultado
     End Function
-
 
 
 
@@ -144,16 +137,16 @@ Public Class Conexion
     Public Shared Function ExecuteNonQuery(ByVal _paramComando As SqlCommand) As Integer
 
         Try
-            If retornaConexion.State = ConnectionState.Open Then
-                retornaConexion.Close()
+            If _objConexion.State = ConnectionState.Open Then
+                _objConexion.Close()
             End If
-            _paramComando.Connection = retornaConexion()
-            retornaConexion.Open()
+            _paramComando.Connection = _objConexion
+            _objConexion.Open()
             Return _paramComando.ExecuteNonQuery()
         Catch ex As Exception
             Throw New Exception(ex.Message)
         Finally
-            retornaConexion.Close()
+            _objConexion.Close()
             '_objDAL.Conexion.Dispose()
         End Try
     End Function
@@ -161,10 +154,28 @@ Public Class Conexion
     ''' <summary> Retorna un objeto Comando</summary>
     ''' <param name="_paramcomando">String SQL</param>
     Shared Function retornaComando(ByVal _paramComando As String) As SqlCommand
-        Dim _objCommando As New SqlCommand(_paramComando, retornaConexion)
+        Dim _objCommando As New SqlCommand(_paramComando, _objConexion)
         _objCommando.CommandType = CommandType.Text
         Return _objCommando
     End Function
+
+    'Shared Function ObtenerID(ByVal _paramTabla As String, ByVal _paramCampoID As String) As Integer
+    '    Dim _dataAdapter As New SqlDataAdapter(retornaComando("Select Top(1) " & _paramCampoID & " from " & _paramTabla & " order by " & _paramCampoID & " Desc"))
+    '    Dim _dataTable As New DataTable
+    '    Dim _resultado As Integer
+    '    _dataAdapter.Fill(_dataTable)
+    '    If _dataTable.Rows.Count = 0 Then
+    '        _resultado = 1
+    '    Else
+    '        _resultado = (_dataTable.Rows(0).Item(0)) + 1
+    '    End If
+    '    Return _resultado
+    'End Function
+
 #End Region
+
+
+
+
 
 End Class

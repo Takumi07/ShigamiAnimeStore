@@ -107,8 +107,7 @@
                                     <asp:TextBox ID="TextBox4" runat="server" CssClass="caja-texto" MaxLength="150"></asp:TextBox>
                                 </div>
                                 <div class="col-md-1 col-md-offset-1">
-                                    <asp:RequiredFieldValidator ID="requ_TextBox4" runat="server"
-                                        ControlToValidate="TextBox4" ErrorMessage="*" EnableClientScript="false" Display="Dynamic" CssClass="validador"></asp:RequiredFieldValidator>
+               
                                 </div>
                             </div>
                             <br />
@@ -125,8 +124,7 @@
                                 </div>
 
                                 <div class="col-md-1 col-md-offset-1">
-                                    <asp:RequiredFieldValidator ID="req_datepicker" runat="server"
-                                        ControlToValidate="datepicker" ErrorMessage="*" EnableClientScript="false" Display="Dynamic" CssClass="validador"></asp:RequiredFieldValidator>
+                               
                                 </div>
                             </div>
                             <br />
@@ -144,8 +142,7 @@
                                     <asp:TextBox ID="TextBox5" runat="server" CssClass="caja-texto" MaxLength="150"></asp:TextBox>
                                 </div>
                                 <div class="col-md-1 col-md-offset-1">
-                                    <asp:RequiredFieldValidator ID="req_TextBox5" runat="server"
-                                        ControlToValidate="TextBox5" ErrorMessage="*" EnableClientScript="false" Display="Dynamic" CssClass="validador"></asp:RequiredFieldValidator>
+                                   
                                 </div>
                             </div>
                             <br />

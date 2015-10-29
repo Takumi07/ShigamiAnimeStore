@@ -144,6 +144,7 @@
     <Content Include="Imagenes\Select-language-32.png" />
     <Content Include="Imagenes\Settings-32.png" />
     <Content Include="Imagenes\Telephone-Add-32.png" />
+    <Content Include="Imagenes\Unlock-32.png" />
     <Content Include="Imagenes\Up-32.png" />
     <Content Include="Imagenes\user-32.png" />
     <Content Include="Imagenes\userH.png" />
