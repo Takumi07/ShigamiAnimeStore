@@ -99,12 +99,16 @@
     <Content Include="agregarIdioma.aspx" />
     <Content Include="agregarPerfil.aspx" />
     <Content Include="AgregarUsuario.aspx" />
+    <Content Include="Anime.aspx" />
     <Content Include="cambiarIdioma.aspx" />
     <Content Include="CambiarPassword.aspx" />
+    <Content Include="Comics.aspx" />
     <Content Include="Contacto.aspx" />
+    <Content Include="Cosplay.aspx" />
     <Content Include="CSS\DateTimePicker.css" />
     <Content Include="CSS\MisEstilos.css" />
     <Content Include="error.aspx" />
+    <Content Include="Figuras.aspx" />
     <Content Include="Imagenes\Add-32.png" />
     <Content Include="Imagenes\add-64.png" />
     <Content Include="Imagenes\Anime1.jpg" />
@@ -149,8 +153,11 @@
     <Content Include="Imagenes\user-32.png" />
     <Content Include="Imagenes\userH.png" />
     <Content Include="Index.aspx" />
+    <Content Include="JPop.aspx" />
     <Content Include="JS\jquery-ui.js" />
+    <Content Include="Manga.aspx" />
     <Content Include="Menu\Menu.xml" />
+    <Content Include="Merchandising.aspx" />
     <Content Include="modificarProductos.aspx" />
     <Content Include="MuestraIndexx.aspx" />
     <Content Include="QuienesSomos.aspx" />
@@ -158,6 +165,7 @@
     <Content Include="realizarRestore.aspx" />
     <Content Include="recuperarClave.aspx" />
     <Content Include="registrarUsuario.aspx" />
+    <Content Include="resumenCompra.aspx" />
     <Content Include="visualizarBitacora.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -218,6 +226,13 @@
       <DependentUpon>AgregarUsuario.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Anime.aspx.designer.vb">
+      <DependentUpon>Anime.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anime.aspx.vb">
+      <DependentUpon>Anime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="App_Code\validaciones.vb" />
     <Compile Include="cambiarIdioma.aspx.designer.vb">
       <DependentUpon>cambiarIdioma.aspx</DependentUpon>
@@ -233,11 +248,25 @@
       <DependentUpon>CambiarPassword.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Comics.aspx.designer.vb">
+      <DependentUpon>Comics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comics.aspx.vb">
+      <DependentUpon>Comics.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Contacto.aspx.designer.vb">
       <DependentUpon>Contacto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contacto.aspx.vb">
       <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cosplay.aspx.designer.vb">
+      <DependentUpon>Cosplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cosplay.aspx.vb">
+      <DependentUpon>Cosplay.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="error.aspx.designer.vb">
@@ -247,11 +276,39 @@
       <DependentUpon>error.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Figuras.aspx.designer.vb">
+      <DependentUpon>Figuras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Figuras.aspx.vb">
+      <DependentUpon>Figuras.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Index.aspx.designer.vb">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="JPop.aspx.designer.vb">
+      <DependentUpon>JPop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JPop.aspx.vb">
+      <DependentUpon>JPop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Manga.aspx.designer.vb">
+      <DependentUpon>Manga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manga.aspx.vb">
+      <DependentUpon>Manga.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Merchandising.aspx.designer.vb">
+      <DependentUpon>Merchandising.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Merchandising.aspx.vb">
+      <DependentUpon>Merchandising.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="modificarProductos.aspx.designer.vb">
@@ -327,6 +384,13 @@
     </Compile>
     <Compile Include="registrarUsuario.aspx.vb">
       <DependentUpon>registrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="resumenCompra.aspx.designer.vb">
+      <DependentUpon>resumenCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resumenCompra.aspx.vb">
+      <DependentUpon>resumenCompra.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="visualizarBitacora.aspx.designer.vb">

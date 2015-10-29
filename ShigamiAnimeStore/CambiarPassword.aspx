@@ -65,7 +65,7 @@
                         <br />
                             <div class="fila">
                             <div class="col-md-2 col-md-offset-3">
-                                <asp:Button ID="btn_modificarPass" runat="server" Text="Agregar" cssclass="btn btn-modificar btn-block"/>
+                                <asp:Button ID="btn_modificarPass" runat="server" Text="Modificar" cssclass="btn btn-modificar btn-block"/>
                                 </div>
                             <div class="col-md-2 col-md-offset-2">
                                  <asp:Button ID="btn_cancelarPass" runat="server" Text="Cancelar" cssclass="btn btn-cancelar btn-block"/>

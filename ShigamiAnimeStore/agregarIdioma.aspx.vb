@@ -32,6 +32,7 @@ Public Class agregarIdioma
 
     Private Sub cargarDatos(ByVal paramIdioma As ENTIDADES.Idioma)
         Me.txt_NombreIdioma.Text = paramIdioma.Nombre
+        Me.ddl_cultura.SelectedValue = paramIdioma.Cultura.Name.ToString
         Me.txt_NombreIdioma.ReadOnly = True
         For Each pal As ENTIDADES.Palabra In paramIdioma.Palabras
             For Each row As GridViewRow In Me.gv_Palabras.Rows
@@ -190,6 +191,7 @@ Public Class agregarIdioma
             Dim _idioma As New ENTIDADES.Idioma
             Dim _bllidioma As New BLL.IdiomaBLL
             _idioma.ID = DirectCast(Session("IdiomaaEditar"), ENTIDADES.Idioma).ID
+            _idioma.Cultura = CultureInfo.GetCultureInfo(ddl_cultura.SelectedValue)
             guardarPalabras()
             _idioma.Palabras = DirectCast(Session("listaNuevaPalabras"), List(Of ENTIDADES.Palabra))
             For Each _palabra As ENTIDADES.Palabra In _listaPalabras

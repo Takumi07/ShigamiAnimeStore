@@ -57,6 +57,14 @@ Public Class IdiomaMPP
                 End With
                 DAL.Conexion.ExecuteNonQuery(MiComando)
             Next
+
+            Dim MiComando2 As SqlCommand
+            MiComando2 = DAL.Conexion.retornaComando("update idioma set cultura = @Cultura where ID_Idioma = @ID_Idioma")
+            With MiComando2.Parameters
+                .Add(New SqlParameter("@Cultura", paramEntidad.Cultura.Name))
+                .Add(New SqlParameter("@ID_Idioma", paramEntidad.ID))
+            End With
+            DAL.Conexion.ExecuteNonQuery(MiComando2)
         Catch ex As Exception
             Throw ex
         End Try

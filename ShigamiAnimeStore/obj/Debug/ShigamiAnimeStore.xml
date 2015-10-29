@@ -6,7 +6,263 @@ ShigamiAnimeStore
 </name>
 </assembly>
 <members>
-<member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
+<member name="F:ShigamiAnimeStore.Merchandising.lbl_Figuras">
+	<summary>
+Control lbl_Figuras.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Merchandising.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Merchandising.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Merchandising.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.JPop.lbl_Figuras">
+	<summary>
+Control lbl_Figuras.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.JPop.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.JPop.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.JPop.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Figuras.lbl_Figuras">
+	<summary>
+Control lbl_Figuras.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Figuras.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Figuras.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Figuras.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Cosplay.lbl_Cosplay">
+	<summary>
+Control lbl_Cosplay.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Cosplay.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Cosplay.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Cosplay.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Comics.lbl_Comics">
+	<summary>
+Control lbl_Comics.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Comics.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Comics.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Comics.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Anime.lbl_Manga">
+	<summary>
+Control lbl_Manga.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Anime.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Anime.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Anime.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.resumenCompra.lbl_ResumenCompra">
+	<summary>
+Control lbl_ResumenCompra.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.resumenCompra.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.resumenCompra.sinProductos">
+	<summary>
+Control sinProductos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.resumenCompra.lbl_SinProductos">
+	<summary>
+Control lbl_SinProductos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Manga.lbl_Manga">
+	<summary>
+Control lbl_Manga.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Manga.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Manga.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Manga.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
 	<summary>
 Control cab_productos.
 </summary>
