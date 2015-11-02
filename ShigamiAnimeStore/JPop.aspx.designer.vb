@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class JPop
 
     '''<summary>
-    '''Control lbl_Figuras.
+    '''Control lbl_Jpop.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents lbl_Figuras As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents lbl_Jpop As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control GridView1.

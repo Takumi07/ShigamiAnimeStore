@@ -27,7 +27,7 @@ Public Class Cosplay
         Session("Producto") = MiProducto
 
         'ACA TIENE QUE IR A RESUMEN COMPRA O ALGO ASÍ
-        'Response.Redirect("administrarProductos.aspx")
+        Response.Redirect("resumenCompra.aspx")
     End Sub
 
     Public Function BuscarProducto(ByVal paramIDProducto As Integer) As ProductoEntidad

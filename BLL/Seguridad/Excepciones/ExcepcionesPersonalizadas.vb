@@ -16,6 +16,20 @@ Public Class UsuarioBloqueadoException
 
 End Class
 
+
+Public Class SinStockException
+    Inherits ExcepcionesPersonalizadas
+    Public Overrides Function Mensaje() As String
+        If BLL.SesionBLL.Current.Usuario Is Nothing Then
+            Return "No se cuenta con stock suficiente para el producto seleccionado."
+        Else
+            Return BLL.IdiomaBLL.traducirMensaje(SesionBLL.Current.Usuario.Idioma, 166) ' exp_1
+        End If
+
+    End Function
+
+End Class
+
 Public Class IdiomaDuplicadoException
     Inherits ExcepcionesPersonalizadas
     Public Overrides Function Mensaje() As String

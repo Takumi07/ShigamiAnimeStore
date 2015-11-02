@@ -140,6 +140,7 @@
     <Content Include="Imagenes\Message-already-read-32.png" />
     <Content Include="Imagenes\Money-Dollar-32.png" />
     <Content Include="Imagenes\money_32.png" />
+    <Content Include="Imagenes\papelera.png" />
     <Content Include="Imagenes\Personal-information-32.png" />
     <Content Include="Imagenes\Question-type-one-correct-32.png" />
     <Content Include="Imagenes\Region-And-Language-32.png" />
