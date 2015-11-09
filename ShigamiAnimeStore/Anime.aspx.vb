@@ -5,6 +5,8 @@ Public Class Anime
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Carga la lista de productos que pertenece a los productos de tipo "Anime"
+        'Genera una grilla con información del producto permitiendo agregar el mismo al carrito de compras del usuario.
         Dim MiAnimeBLL As New AnimeBLL
         Dim MiListaAnime As New List(Of AnimeEntidad)
         For Each MiProducto As ProductoEntidad In MiAnimeBLL.ListarProductos()
@@ -23,12 +25,11 @@ Public Class Anime
 
 
     Protected Sub btn_Agregar_Command(sender As Object, e As CommandEventArgs)
+        'Agrega el producto al carrito del usuario, para que pueda realizar una compra.
         Dim MiProducto As ProductoEntidad
         Dim a = Me.BuscarProducto(e.CommandArgument)
         MiProducto = Me.BuscarProducto(e.CommandArgument)
         Session("Producto") = MiProducto
-
-        'ACA TIENE QUE IR A RESUMEN COMPRA O ALGO ASÍ
         Response.Redirect("resumenCompra.aspx")
     End Sub
 

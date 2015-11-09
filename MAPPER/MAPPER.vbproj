@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DireccionMPP.vb" />
+    <Compile Include="DVMPP.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -84,6 +85,7 @@
     <Compile Include="Negocio\MangaMPP.vb" />
     <Compile Include="Negocio\ProductoMPP.vb" />
     <Compile Include="Negocio\TipoProductoMPP.vb" />
+    <Compile Include="Negocio\VentaMPP.vb" />
     <Compile Include="PersonaMPP.vb" />
     <Compile Include="ProvinciaMPP.vb" />
     <Compile Include="Seguridad\BackupRestoreMPP.vb" />

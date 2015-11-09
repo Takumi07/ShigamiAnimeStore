@@ -7,13 +7,11 @@
     Protected Sub btn_enviar_Click(sender As Object, e As EventArgs) Handles btn_enviar.Click
         Try
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
+            'Permite que una persona se contacte con la empresa.
             Dim MiContacto As New Entidades.Contacto
             MiContacto.Nombre = txt_nombre.Text
             MiContacto.Apellido = txt_Apellido.Text
             MiContacto.Mail = txt_correo.Text
-
-
-            'CAMBIARLO
             If txt_telefono.Text = "" Then
                 MiContacto.Telefono = 0
             Else

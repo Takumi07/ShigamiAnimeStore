@@ -3,9 +3,11 @@
 
     Protected Sub btn_recuperar_Click(sender As Object, e As EventArgs) Handles btn_recuperar.Click
         Try
+            'El método contiene la lógica para recuperar una contraseña 
+            'La misma será enviada por email al usuario.
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim MiUsuarioBLL As New BLL.UsuarioBLL
-            Dim MiUsuarioEntidad As New Entidades.Usuario
+            Dim MiUsuarioEntidad As New ENTIDADES.Usuario
             If MiUsuarioBLL.chequearUsuario(txt_usuario.Text) = False Then
                 Throw New BLL.UsuarioInexistenteException
             Else

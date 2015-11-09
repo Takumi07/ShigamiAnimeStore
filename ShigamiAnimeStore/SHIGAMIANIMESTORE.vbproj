@@ -100,6 +100,7 @@
     <Content Include="agregarPerfil.aspx" />
     <Content Include="AgregarUsuario.aspx" />
     <Content Include="Anime.aspx" />
+    <Content Include="CalcularDescuentos.asmx" />
     <Content Include="cambiarIdioma.aspx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="Comics.aspx" />
@@ -235,6 +236,10 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="App_Code\validaciones.vb" />
+    <Compile Include="CalcularDescuentos.asmx.vb">
+      <DependentUpon>CalcularDescuentos.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="cambiarIdioma.aspx.designer.vb">
       <DependentUpon>cambiarIdioma.aspx</DependentUpon>
     </Compile>

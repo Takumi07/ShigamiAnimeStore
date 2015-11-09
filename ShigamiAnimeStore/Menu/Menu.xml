@@ -20,23 +20,21 @@
     <item nombre="Visualizar Bitacora" id="9">
     </item>
   </submenu>
-  <submenu nombre="Consultas">
-    <item nombre="Visualizar Consultas" id="22">
+
+  <submenu nombre="Administrar Productos">
+    <item nombre="Alta Productos" id="14">    
+    </item>
+    <item nombre="Modificar Productos" id="15">
     </item>
   </submenu>
-  <submenu nombre="Mensajeria">
-    <item nombre="Escribir Mensaje" id="23">
-    </item>
-    <item nombre="Buzon de Entrada" id="24">
-    </item>
-  </submenu>
+    
   <submenu nombre="Opciones">
     <item nombre="Cambiar Contraseña" id="">
     </item>
     <item nombre="Modificar Idioma" id="">
     </item>
-    <item nombre="Modificar Datos Personales" id="">
-    </item>
   </submenu>
+  
+  
 
 </menu>

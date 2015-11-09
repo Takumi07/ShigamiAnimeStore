@@ -4,6 +4,8 @@ Public Class Manga
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Carga la lista de productos que pertenece a los productos de tipo "Manga"
+        'Genera una grilla con información del producto permitiendo agregar el mismo al carrito de compras del usuario.
         Dim MiMangaBLL As New MangaBLL
         Dim MiListaManga As New List(Of MangaEntidad)
         For Each MiProducto As ProductoEntidad In MiMangaBLL.ListarProductos()
@@ -21,12 +23,11 @@ Public Class Manga
     End Sub
 
     Protected Sub btn_Agregar_Command(sender As Object, e As CommandEventArgs)
+        'Agrega el producto al carrito del usuario, para que pueda realizar una compra.
         Dim MiProducto As ProductoEntidad
         Dim a = Me.BuscarProducto(e.CommandArgument)
         MiProducto = Me.BuscarProducto(e.CommandArgument)
         Session("Producto") = MiProducto
-
-        'ACA TIENE QUE IR A RESUMEN COMPRA O ALGO ASÍ
         Response.Redirect("resumencompra.aspx")
     End Sub
 

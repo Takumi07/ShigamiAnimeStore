@@ -15,9 +15,7 @@ Public Class modificarProductos
 
 
     Protected Sub btn_Editar_Command(sender As Object, e As CommandEventArgs)
-        'Me trae la fila
-        'Dim MiRow As Integer
-        'MiRow = CInt(e.CommandArgument)
+        'Permite seleccionar el producto que se desea editar.
         Dim MiProducto As ProductoEntidad
         Dim a = Me.BuscarProducto(e.CommandArgument)
         MiProducto = Me.BuscarProducto(e.CommandArgument)

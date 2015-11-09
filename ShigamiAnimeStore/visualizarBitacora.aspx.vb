@@ -7,6 +7,7 @@ Public Class visualizarBitacora
     Dim _gestorusuario As New BLL.UsuarioBLL
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'VALIDA LA PÁGINA
         If validaciones.validarPagina(Me) = False Then
             Response.Redirect("error.aspx")
         End If
@@ -19,16 +20,13 @@ Public Class visualizarBitacora
 
     End Sub
 
-    'Protected Overrides Sub InitializeCulture()
-    '    Thread.CurrentThread.CurrentCulture = CType(Session("Usuario"), ENTIDADES.Usuario).Idioma.Cultura
-    '    Thread.CurrentThread.CurrentUICulture = CType(Session("Usuario"), ENTIDADES.Usuario).Idioma.Cultura
-    'End Sub
 
     Private Sub Cargar()
         _listalogs = _bllBitacora.consultarBitacora()
     End Sub
 
     Private Sub obtenerUsuarios()
+        'Obtiene los usuarios para el combo
         Dim _bllUsuario As New BLL.UsuarioBLL
         Me.ddl_Usuario.DataSource = _bllUsuario.consultarUsuarios
         Me.ddl_Usuario.DataBind()
@@ -36,6 +34,7 @@ Public Class visualizarBitacora
     End Sub
 
     Private Sub obtenerTipoOperacion()
+        'Obtiene los tipos de operaciones para el combo
         Me.ddl_Operacion.DataSource = System.Enum.GetValues(GetType(ENTIDADES.Bitacora.tipoOperacionBitacora))
         Me.ddl_Operacion.DataBind()
         Me.ddl_Operacion.Items.Insert(0, "Todos")
@@ -54,6 +53,7 @@ Public Class visualizarBitacora
 
     Private Sub GridView1_DataBound(sender As Object, e As EventArgs) Handles gv_Bitacora.DataBound
         Try
+            'Genera el paginado de la gridview
             Dim ddl As DropDownList = CType(gv_Bitacora.BottomPagerRow.Cells(0).FindControl("ddlPaging"), DropDownList)
 
             For cnt As Integer = 0 To gv_Bitacora.PageCount - 1
@@ -87,6 +87,7 @@ Public Class visualizarBitacora
 
     Protected Sub btn_buscar_Click(sender As Object, e As EventArgs) Handles btn_buscar.Click
         Try
+            'Filtra los resultados de la busqueda.
             Dim _usuario As ENTIDADES.Usuario = Nothing
             Dim _fecha As Date
             Dim _operacion As Integer = 0

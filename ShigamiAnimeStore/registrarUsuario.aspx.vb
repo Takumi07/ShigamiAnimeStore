@@ -6,6 +6,7 @@ Public Class registrarUsuario
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Se cargan los dátos necesarios para operar con la página.
         If Not IsPostBack Then
             obtenerProvincia()
             obtenerNacionalidad()
@@ -16,25 +17,29 @@ Public Class registrarUsuario
     End Sub
 
     Private Sub obtenerIdiomas()
-        If ddl_Idiomas.Items.Count = 0 Then
+        'Se cargan los idiomas que el sistema posee.
+        If ddl_idiomas.Items.Count = 0 Then
             Dim _bllIdioma As New BLL.IdiomaBLL
-            Dim _idiomas As List(Of Entidades.Idioma) = _bllIdioma.ListarIdiomas
-            Me.ddl_Idiomas.DataSource = _idiomas
-            Me.ddl_Idiomas.DataBind()
+            Dim _idiomas As List(Of ENTIDADES.Idioma) = _bllIdioma.ListarIdiomas
+            Me.ddl_idiomas.DataSource = _idiomas
+            Me.ddl_idiomas.DataBind()
         End If
     End Sub
     Private Sub obtenerProvincia()
+        'Se obtienen las provincias las cuales vienen por defecto en el sistema.
         Me.ddl_provincia.DataSource = (New BLL.ProvinciaBLL).obtenerProvincia
         Me.ddl_provincia.DataBind()
     End Sub
 
     Private Sub obtenerNacionalidad()
+        'Se obtienen las Localidades las cuales vienen por defecto en el sistema.
         Me.ddl_Nacionalidad.DataSource = (New BLL.NacionalidadBLL).obtenerNacionalidad
         Me.ddl_Nacionalidad.DataBind()
     End Sub
 
 
     Private Sub obtenerTipoTelefono()
+        'Se obtienen los Tipos de teléfono las cuales vienen por defecto en el sistema.
         Me.ddl_tipoTelefono.DataSource = System.Enum.GetValues(GetType(ENTIDADES.Telefono.EnumtipoTelefono))
         Me.ddl_tipoTelefono.DataBind()
     End Sub
@@ -63,6 +68,7 @@ Public Class registrarUsuario
 
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
+        'Contiene el código pertinente para dar de alta a un usuario en el sistema.
         Try
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             If Me.txt_contraseña.Text > 6 Then
@@ -137,6 +143,7 @@ Public Class registrarUsuario
     End Sub
 
     Public Sub CrearDirectorio(ByVal paramPath As String)
+        'Método utilizado para crear el directorio que contendrá las imágenes, en caso de que no exista.
         Dim MiDirectorio As DirectoryInfo = New DirectoryInfo(paramPath)
         If Not MiDirectorio.Exists Then
             MiDirectorio.Create()
@@ -157,6 +164,7 @@ Public Class registrarUsuario
     End Function
 
     Protected Sub btn_agregarTelefono_Click(sender As Object, e As ImageClickEventArgs)
+        'Método que permite agregar teléfonos a la información personal del usuario.
         Try
             Dim _telefono As New ENTIDADES.Telefono
             _telefono.tipoTelefono = Me.ddl_tipoTelefono.SelectedIndex + 1
@@ -170,7 +178,7 @@ Public Class registrarUsuario
     End Sub
 
     Private Sub CustomValidator1_ServerValidate(source As Object, args As ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
-        'Hay que probar si anda esto.
+        'Validación.
         Dim MiUsuarioBLL As New BLL.UsuarioBLL
         If MiUsuarioBLL.chequearUsuario(txt_nombreusuario.Text) = True Then
             CustomValidator1.IsValid = False

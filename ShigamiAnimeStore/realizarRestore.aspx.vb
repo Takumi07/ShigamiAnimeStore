@@ -13,9 +13,11 @@
 
     Protected Sub btn_aceptar_Click(sender As Object, e As EventArgs) Handles btn_aceptar.Click
         Try
+            'Método utilizado para realizar el restore de la base de datos.
+            'Toma el archivo de una rúta física del equipo
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim Resultado As Boolean
-            Dim MiBackupRestoreEntidad As New Entidades.BackupRestore
+            Dim MiBackupRestoreEntidad As New ENTIDADES.BackupRestore
             Dim Path As String
             Path = "C:\BCPSHIGAMIANIMESTORE\"
             Path = Path & Me.fu_Restore.FileName

@@ -47,6 +47,37 @@
                             </asp:GridView>
                             <br />
                             <br />
+
+                            <div class="col-md-12" runat="server" id="Div1">
+                                <div class="col-md-3" id="div_tarjeta" runat="server" visible="false">
+                                    <asp:TextBox ID="txt_tarjeta" runat="server"></asp:TextBox>
+                                </div>
+                                <div class="col-md-3 col-md-offset-2">
+                                    <asp:Label ID="Label1" runat="server" Text="Medio de Pago"></asp:Label>
+                                </div>
+                                <div class="col-md-4 col-md-offset-0">
+                                    <asp:DropDownList ID="ddl_Tarjeta" runat="server" AutoPostBack="true">
+                                        <asp:ListItem Selected="True">Efectivo</asp:ListItem>
+                                        <asp:ListItem>Tarjeta de Crédito</asp:ListItem>
+                                        <asp:ListItem>Tarjeta de Débito</asp:ListItem>
+                                    </asp:DropDownList>
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+
+
+                            <div class="col-md-12" runat="server" id="pago">
+                                <div class="col-md-1 col-md-offset-6">
+                                    <asp:Label ID="lbl_Total" runat="server" Text="Total"></asp:Label>
+                                </div>
+                                <div class="col-md-3 col-md-offset-2 text-center">
+                                    <asp:Label ID="lbl_MontoCompra" runat="server" Text="Label"></asp:Label>
+                                </div>
+                            </div>
+
+                            <br />
+                            <br />
                             <div class="col-md-12" runat="server" id="botones">
                                 <div class="col-md-3 col-md-offset-2">
                                     <asp:Button ID="btn_Confirmar" CssClass="btn btn-aceptar btn-block" runat="server" Text="Confirmar Compra" />

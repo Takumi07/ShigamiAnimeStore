@@ -3,6 +3,7 @@ Public Class realizarBackup
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Fija la ruta en donde ser guardará el backup realizado.
         If validaciones.validarPagina(Me) = False Then
             Response.Redirect("error.aspx")
         End If
@@ -12,6 +13,7 @@ Public Class realizarBackup
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
         Try
+            'Método utilizado para realizar el backup de la base de datos.
             validaciones.validarSubmit(Me, Me.error, Me.lbl_TituloError)
             Dim MiBackupRestoreBLL As New BLL.BackupRestoreBLL
             Dim MiBackupRestoreEntidad As New ENTIDADES.BackupRestore
@@ -31,6 +33,7 @@ Public Class realizarBackup
 
 
     Public Sub CrearDirectorio(ByVal paramPath As String)
+        'Crea un directorio en caso de que este no exista.
         Dim MiDirectorio As DirectoryInfo = New DirectoryInfo(paramPath)
         If Not MiDirectorio.Exists Then
             MiDirectorio.Create()

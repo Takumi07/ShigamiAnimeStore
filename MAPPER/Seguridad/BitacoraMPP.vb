@@ -4,12 +4,17 @@ Public Class BitacoraMPP
     Public Sub altaBitacora(paramBitacora As Entidades.Bitacora)
         Try
             Dim MisParametros As New Hashtable
+            paramBitacora.ID = DAL.Conexion.ObtenerID("Bitacora", "ID_Bitacora")
+            paramBitacora.FechaHora = Now
             MisParametros.Add("@FechaHora", Now)
             MisParametros.Add("@Prioridad", paramBitacora.Prioridad)
             MisParametros.Add("@Descripcion", paramBitacora.Descripcion)
             MisParametros.Add("@TipoOperacion", paramBitacora.TipoOperacion)
             MisParametros.Add("@ID_Usuario", paramBitacora.Usuario.ID)
+            'Aca tiene que ir el DVH
+            MisParametros.Add("@DVH", DVMPP.CalcularDVH(paramBitacora.DigitoVerificador))
             DAL.Conexion.ExecuteNonQuery("altaBitacora", MisParametros)
+            DVMPP.ActualizarDVV("Bitacora")
         Catch ex As Exception
             Throw ex
         End Try

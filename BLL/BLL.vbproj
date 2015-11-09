@@ -83,12 +83,14 @@
     <Compile Include="Negocio\MangaBLL.vb" />
     <Compile Include="Negocio\ProductoBLL.vb" />
     <Compile Include="Negocio\TipoProductoBLL.vb" />
+    <Compile Include="Negocio\VentaBLL.vb" />
     <Compile Include="PersonaBLL.vb" />
     <Compile Include="ProvinciaBLL.vb" />
     <Compile Include="Seguridad\BackupRestoreBLL.vb" />
     <Compile Include="Seguridad\BitacoraBLL.vb" />
     <Compile Include="Seguridad\BoletinBLL.vb" />
     <Compile Include="Seguridad\ContactoBLL.vb" />
+    <Compile Include="Seguridad\DVBLL.vb" />
     <Compile Include="Seguridad\EncriptarBLL.vb" />
     <Compile Include="Seguridad\Excepciones\ExcepcionBLL.vb" />
     <Compile Include="Seguridad\Excepciones\ExcepcionesPersonalizadas.vb" />

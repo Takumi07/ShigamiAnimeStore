@@ -91,4 +91,16 @@
         Me.TipoOperacion = _tipoOperacion
         Me.Descripcion = _descripcion
     End Sub
+
+    ''' <summary>
+    ''' Agregado para efectuar dígito verificador.
+    ''' </summary>
+    ''' <value></value>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public ReadOnly Property DigitoVerificador
+        Get
+            Return Me.ID & Me.FechaHora & Me.Prioridad & Me.Descripcion & Me.TipoOperacion & Me.Usuario.ID
+        End Get
+    End Property
 End Class

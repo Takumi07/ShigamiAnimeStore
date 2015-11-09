@@ -4,6 +4,8 @@ Public Class Merchandising
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Carga la lista de productos que pertenece a los productos de tipo "Merchandising"
+        'Genera una grilla con información del producto permitiendo agregar el mismo al carrito de compras del usuario.
         Dim MiProductoBLL As New ProductoBLL
         Dim MiListaProducto As New List(Of ProductoEntidad)
         For Each MiProducto As ProductoEntidad In MiProductoBLL.ListarProductos
@@ -19,12 +21,11 @@ Public Class Merchandising
         End If
     End Sub
     Protected Sub btn_Agregar_Command(sender As Object, e As CommandEventArgs)
+        'Agrega el producto al carrito del usuario, para que pueda realizar una compra.
         Dim MiProducto As ProductoEntidad
         Dim a = Me.BuscarProducto(e.CommandArgument)
         MiProducto = Me.BuscarProducto(e.CommandArgument)
         Session("Producto") = MiProducto
-
-        'ACA TIENE QUE IR A RESUMEN COMPRA O ALGO ASÍ
         Response.Redirect("resumenCompra.aspx")
     End Sub
 
