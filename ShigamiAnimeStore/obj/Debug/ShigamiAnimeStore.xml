@@ -6,7 +6,23 @@ ShigamiAnimeStore
 </name>
 </assembly>
 <members>
-<member name="F:ShigamiAnimeStore.Integridad.lbl_Integridad">
+<member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
+	<summary>
+Control cab_productos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.modificarProductos.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Integridad.lbl_Integridad">
 	<summary>
 Control lbl_Integridad.
 </summary>
@@ -33,22 +49,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ShigamiAnimeStore.Integridad.btn_reparar">
 	<summary>
 Control btn_reparar.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
-	<summary>
-Control cab_productos.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.modificarProductos.GridView1">
-	<summary>
-Control GridView1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -6,7 +6,14 @@ MAPPER
 </name>
 </assembly>
 <members>
-<member name="M:MAPPER.DVMPP.CalcularDVH(System.String)">
+<member name="M:MAPPER.ProductoMPP.GuardarCalificarNovedad(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.ProductoMPP.GuardarCalificarFlujoVenta(ENTIDADES.ProductoEntidad)">
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.ProductoMPP.NuevoProducto(ENTIDADES.ProductoEntidad)">
+	<summary>Este método se encargará de persistir un producto.</summary>
+	<param name="paramProductoEntidad"></param>
+</member><member name="M:MAPPER.DVMPP.CalcularDVH(System.String)">
 	<summary> Calcula el DVH en base a una concatenaciòn de todos los campos de la base de datos.
 Tengo un SP en la bd que hace lo mismo pero deberìa hacerlo en la aplicaciòn así que aca esta...</summary>
 </member><member name="M:MAPPER.DVMPP.ActualizarDVV(System.String)">
@@ -15,13 +22,6 @@ Tengo un SP en la bd que hace lo mismo pero deberìa hacerlo en la aplicaciòn a
 </member><member name="M:MAPPER.DVMPP.CalcularDVV(System.String)">
  Calcula y retorna el valor del DVV para la tabla especificada.
  <param name="paramTabla">Nombre de la tabla que deseamos calcular el DVV</param>
-</member><member name="M:MAPPER.ProductoMPP.GuardarCalificarNovedad(ENTIDADES.ProductoEntidad)">
-	<param name="paramProductoEntidad"></param>
-</member><member name="M:MAPPER.ProductoMPP.GuardarCalificarFlujoVenta(ENTIDADES.ProductoEntidad)">
-	<param name="paramProductoEntidad"></param>
-</member><member name="M:MAPPER.ProductoMPP.NuevoProducto(ENTIDADES.ProductoEntidad)">
-	<summary>Este método se encargará de persistir un producto.</summary>
-	<param name="paramProductoEntidad"></param>
 </member><member name="M:MAPPER.GeneroMPP.ListarGeneros">
 	<summary> Método que devuelve todos los generos </summary>
 </member><member name="M:MAPPER.GeneroMPP.ObtenerGenerosEvento(System.Int32)">
