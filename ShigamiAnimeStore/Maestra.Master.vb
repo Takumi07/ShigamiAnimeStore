@@ -373,18 +373,23 @@ Public Class Maestra
             'OJO ACA TENGO QUE REDIRECCIONAR A MI PÁGINA ERROR!!!
         Catch ex As BLL.ExepcionIntegridadCorrupta
             Session("Error") = "Integridad Corrupta"
-            Response.Redirect("Error.aspx")
+            'Aca tiene que ir a la página pertinente
+            Response.Redirect("Integridad.aspx")
         Catch ex As BLL.CamposincompletosException
-            Session("Error") = ex.Mensaje
+            'Session("Error") = ex.Mensaje
+            Session("Error") = "Campos incompletos"
             Response.Redirect("Error.aspx")
         Catch ex As BLL.UsuarioInexistenteException
-            Session("Error") = ex.Mensaje
+            'Session("Error") = ex.Mensaje
+            Session("Error") = "Usuario Inexistente"
             Response.Redirect("Error.aspx")
         Catch ex As BLL.PasswordIncorrectoException
-            Session("Error") = ex.Mensaje
+            'Session("Error") = ex.Mensaje
+            Session("Error") = "Password Incorrecto"
             Response.Redirect("Error.aspx")
         Catch ex As BLL.UsuarioBloqueadoException
-            Session("Error") = ex.Mensaje
+            'Session("Error") = ex.Mensaje
+            Session("Error") = "Usuario Bloqueado"
             Response.Redirect("Error.aspx")
         End Try
     End Sub

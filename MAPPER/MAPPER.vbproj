@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DireccionMPP.vb" />
-    <Compile Include="DVMPP.vb" />
+    <Compile Include="Seguridad\DVMPP.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

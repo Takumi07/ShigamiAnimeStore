@@ -155,6 +155,7 @@
     <Content Include="Imagenes\user-32.png" />
     <Content Include="Imagenes\userH.png" />
     <Content Include="Index.aspx" />
+    <Content Include="Integridad.aspx" />
     <Content Include="JPop.aspx" />
     <Content Include="JS\jquery-ui.js" />
     <Content Include="Manga.aspx" />
@@ -294,6 +295,13 @@
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Integridad.aspx.designer.vb">
+      <DependentUpon>Integridad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Integridad.aspx.vb">
+      <DependentUpon>Integridad.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="JPop.aspx.designer.vb">

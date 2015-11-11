@@ -12,5 +12,24 @@
             Throw New ExepcionIntegridadCorrupta
         End Try
     End Function
+
+
+    Public Shared Function DefinirErrorIntegridad() As List(Of ENTIDADES.DVEntidades)
+        Try
+            Return MAPPER.DVMPP.DefinirErrorIntegridad()
+        Catch ex As Exception
+
+        End Try
+    End Function
+
+    Public Shared Function RepararIntegridad()
+        Try
+            MAPPER.DVMPP.RepararIntegridad()
+        Catch ex As Exception
+
+        End Try
+    End Function
+
+
 End Class
 

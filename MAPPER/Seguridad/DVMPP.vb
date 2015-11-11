@@ -31,6 +31,100 @@ Public Class DVMPP
     End Function
 
 
+    Public Shared Function DefinirErrorIntegridad() As List(Of ENTIDADES.DVEntidades)
+        Dim MiListaDVEntidad As New List(Of ENTIDADES.DVEntidades)
+        Dim DigitoVV As DataTable = DAL.BD.ExecuteDataTable(DAL.BD.MiComando("select * from DVV"))
+        If DigitoVV.Rows.Count >= 1 Then
+            For Each MiRow As DataRow In DigitoVV.Rows
+                'Entro a la primer tabla
+                Dim MiLista As New List(Of String)
+                Dim Verificador As Boolean = True
+                Dim TablaAAnalizar As DataTable = DAL.BD.ExecuteDataTable(DAL.BD.MiComando("select * from " & MiRow.Item(0))) 'Obtengo todas las filas de una tabla
+                Dim SumaDVH As Integer = 0
+                For Each MiRowAnalizar As DataRow In TablaAAnalizar.Rows
+                    'Entro a la primer fila
+                    Dim MiStringAnalizar As String = ""
+                    MiStringAnalizar = IterarRow(MiRowAnalizar, TablaAAnalizar.Columns.Count - 2)
+                    Dim DVHTemp As Integer
+                    DVHTemp = CalcularDVH(MiStringAnalizar)
+                    If DVHTemp <> MiRowAnalizar.Item(TablaAAnalizar.Columns.Count - 1) Then
+                        MiLista.Add(MiStringAnalizar)
+                    End If
+                    SumaDVH += DVHTemp
+                Next
+
+                'Terminé de analizar las filas
+                'Agrego la tabla si hay errores
+                If MiLista.Count > 0 Then
+                    Dim MiDVEntidad As New DVEntidades(MiRow.Item(0), MiLista)
+                    MiListaDVEntidad.Add(MiDVEntidad)
+                End If
+
+
+                'No me interesa el DVH porque se que si hay error no da.
+                'If SumaDVH <> MiRow.Item(1) Then
+                '    Return False
+                'End If
+            Next
+            Return MiListaDVEntidad
+        Else
+            Return Nothing
+        End If
+
+    End Function
+
+    Public Shared Sub RepararIntegridad()
+        Try
+            Dim MiListaDVEntidad As New List(Of ENTIDADES.DVEntidades)
+            Dim DigitoVV As DataTable = DAL.BD.ExecuteDataTable(DAL.BD.MiComando("select * from DVV"))
+            If DigitoVV.Rows.Count >= 1 Then
+                For Each MiRow As DataRow In DigitoVV.Rows
+                    Dim MiTabla As String
+                    MiTabla = MiRow.Item(0)
+                    'Entro a la primer tabla
+                    Dim MiLista As New List(Of String)
+                    Dim Verificador As Boolean = True
+                    Dim TablaAAnalizar As DataTable = DAL.BD.ExecuteDataTable(DAL.BD.MiComando("select * from " & MiRow.Item(0))) 'Obtengo todas las filas de una tabla
+                    Dim SumaDVH As Integer = 0
+                    For Each MiRowAnalizar As DataRow In TablaAAnalizar.Rows
+                        'Entro a la primer fila
+                        Dim MiStringAnalizar As String = ""
+                        MiStringAnalizar = IterarRow(MiRowAnalizar, TablaAAnalizar.Columns.Count - 2)
+                        Dim DVHTemp As Integer
+                        DVHTemp = CalcularDVH(MiStringAnalizar)
+                        If DVHTemp <> MiRowAnalizar.Item(TablaAAnalizar.Columns.Count - 1) Then
+                            'Actualizo el valor del DVH
+                            Dim MiComando As New SqlCommand
+                            If MiRow.Item(0) = "Bitacora" Then
+                                MiComando.CommandText = "update Bitacora set DVH =" & DVHTemp & "where id_bitacora=" & MiRowAnalizar.Item(0)
+                                DAL.BD.ExecuteNonQuery(MiComando)
+                            ElseIf MiRow.Item(0) = "Detalle_Venta" Then
+                                MiComando.CommandText = "update Detalle_Venta set DVH =" & DVHTemp & "where ID_Factura=" & MiRowAnalizar.Item(0)
+                                DAL.BD.ExecuteNonQuery(MiComando)
+                            End If
+                        End If
+                        SumaDVH += DVHTemp
+                    Next
+
+                    'Actualizo DVV
+                    Dim MiComando2 As New SqlCommand
+                    If MiRow.Item(0) = "Bitacora" Then
+                        MiComando2.CommandText = "update DVV set DVV =" & SumaDVH & "where NombreTabla = 'Bitacora'"
+                        DAL.BD.ExecuteNonQuery(MiComando2)
+                    ElseIf MiRow.Item(0) = "Detalle_Venta" Then
+                        MiComando2.CommandText = "update DVV set DVV =" & SumaDVH & "where NombreTabla = 'Detalle_Venta'"
+                        DAL.BD.ExecuteNonQuery(MiComando2)
+                    End If
+
+                Next
+            Else
+
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
 
     Public Shared Function IterarRow(ByVal paramDataRow As DataRow, ByVal paramIterarHasta As Integer) As String
         Dim inCadena As String = ""
@@ -111,6 +205,14 @@ Public Class DVMPP
         Next
         Return Resultado
     End Function
+
+
+
+
+
+
+
+
 
 End Class
 

@@ -6,7 +6,39 @@ ShigamiAnimeStore
 </name>
 </assembly>
 <members>
-<member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
+<member name="F:ShigamiAnimeStore.Integridad.lbl_Integridad">
+	<summary>
+Control lbl_Integridad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Integridad.PanelDV">
+	<summary>
+Control PanelDV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Integridad.botones">
+	<summary>
+Control botones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.Integridad.btn_reparar">
+	<summary>
+Control btn_reparar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
 	<summary>
 Control cab_productos.
 </summary>

@@ -90,6 +90,7 @@
     <Compile Include="Seguridad\Bitacora.vb" />
     <Compile Include="Seguridad\Boletin.vb" />
     <Compile Include="Seguridad\Contacto.vb" />
+    <Compile Include="Seguridad\DVEntidades.vb" />
     <Compile Include="Seguridad\Idioma.vb" />
     <Compile Include="Seguridad\Mensaje.vb" />
     <Compile Include="Seguridad\Palabra.vb" />
