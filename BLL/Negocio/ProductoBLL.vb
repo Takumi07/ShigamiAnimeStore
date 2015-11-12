@@ -1,5 +1,4 @@
 ﻿Imports ENTIDADES
-Imports DAL
 
 
 Public Class ProductoBLL

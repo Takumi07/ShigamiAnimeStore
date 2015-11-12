@@ -42,18 +42,6 @@ Public Class IdiomaDuplicadoException
 
 End Class
 
-Public Class aceptoTerminosyCondiciones
-    Inherits ExcepcionesPersonalizadas
-    Public Overrides Function Mensaje() As String
-        If BLL.SesionBLL.Current.Usuario Is Nothing Then
-            Return "Debe aceptar los terminos y condiciones para poder registrarse."
-        Else
-            Return BLL.IdiomaBLL.traducirMensaje(SesionBLL.Current.Usuario.Idioma, 168) ' exp_3
-        End If
-    End Function
-
-End Class
-
 
 Public Class IngresarunPermisoException
     Inherits ExcepcionesPersonalizadas
@@ -195,9 +183,6 @@ Public Class CamposincompletosException
     End Function
 
 End Class
-
-
-
 
 Public Class correorepetidoException
     Inherits ExcepcionesPersonalizadas

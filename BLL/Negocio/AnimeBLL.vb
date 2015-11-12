@@ -1,5 +1,5 @@
 ﻿Imports ENTIDADES
-Imports DAL
+Imports MAPPER
 
 Public Class AnimeBLL
     Inherits ProductoBLL

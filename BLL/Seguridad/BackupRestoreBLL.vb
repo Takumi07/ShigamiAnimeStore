@@ -1,20 +1,17 @@
 ﻿Public Class BackupRestoreBLL
     Dim _mpp As New Mapper.BackupRestoreMPP
 
-
-    Public Function RealizarBackup(ByVal paramBackupRestoreEntidad As Entidades.BackupRestore) As Boolean
+    Public Function RealizarBackup(ByVal paramBackupRestoreEntidad As ENTIDADES.BackupRestore) As Boolean
         Try
             Dim MiResultado As Boolean
             MiResultado = _mpp.RealizarBackup(paramBackupRestoreEntidad)
             Return MiResultado
-            BLL.BitacoraBLL.Alta(SesionBLL.Current.Usuario, Entidades.Bitacora.tipoPrioridadBitacora.Alta, Entidades.Bitacora.tipoOperacionBitacora.Backup, "Backup Correcto")
+            BLL.BitacoraBLL.Alta(SesionBLL.Current.Usuario, ENTIDADES.Bitacora.tipoPrioridadBitacora.Alta, ENTIDADES.Bitacora.tipoOperacionBitacora.Backup, "Backup Correcto")
         Catch ex As Exception
-            BLL.BitacoraBLL.Alta(SesionBLL.Current.Usuario, Entidades.Bitacora.tipoPrioridadBitacora.Alta, Entidades.Bitacora.tipoOperacionBitacora.Backup, "Backup Inorrecto")
+            BLL.BitacoraBLL.Alta(SesionBLL.Current.Usuario, ENTIDADES.Bitacora.tipoPrioridadBitacora.Alta, ENTIDADES.Bitacora.tipoOperacionBitacora.Backup, "Backup Inorrecto")
             Return False
         End Try
     End Function
-
-
 
     Public Function RealizarRestore(ByVal paramBackupRestoreEntidad As Entidades.BackupRestore) As Boolean
         Try

@@ -1,5 +1,5 @@
 ﻿Imports ENTIDADES
-Imports DAL
+
 Public Class GeneroBLL
     ''' <summary> Método que devuelve todos los generos </summary>
     Public Function ListarGeneros() As List(Of GeneroEntidad)
