@@ -9,6 +9,11 @@ Public Class resumenCompra
                 sinProductos.Visible = True
                 lbl_SinProductos.Text = "Debe iniciar sesión antes de efectuar una compra."
                 botones.Visible = False
+                Me.lbl_MontoCompra.Visible = False
+                Me.lbl_Total.Visible = False
+                Me.ddl_Tarjeta.Visible = False
+                Me.Label1.Visible = False
+
             Else
                 Me.botones.Visible = False
                 ''Pregunto si tengo el carrito para no sobreescribirlo
@@ -56,12 +61,23 @@ Public Class resumenCompra
     Protected Sub btn_Confirmar_Click(sender As Object, e As EventArgs) Handles btn_Confirmar.Click
 
         Try
-            'Finalizo la venta. Se impactan los datos en la base de datos.
-            Dim MiVentaBLL As New VentaBLL
-            Dim MiDescuento As Double
-            Dim MiWebServices As New CalcularDescuentos
-            MiDescuento = MiWebServices.PorcentajeDescuento(ddl_Tarjeta.SelectedValue.ToString)
-            MiVentaBLL.FinalizarVenta(DirectCast(Session("Usuario"), ENTIDADES.Usuario), DirectCast(Session("Carrito"), List(Of ENTIDADES.ProductoEntidad)), MiDescuento)
+            If Me.div_tarjeta.Visible = True And Me.txt_tarjeta.Text = "" Then
+                Me.sinProductos.Visible = True
+                Me.lbl_SinProductos.Text = "Debe ingresar una tarjeta de crédito / débito."
+
+            Else
+                'Finalizo la venta. Se impactan los datos en la base de datos.
+                Dim MiVentaBLL As New VentaBLL
+                Dim MiDescuento As Double
+                Dim MiWebServices As New CalcularDescuentos
+                MiDescuento = MiWebServices.PorcentajeDescuento(ddl_Tarjeta.SelectedValue.ToString)
+                MiVentaBLL.FinalizarVenta(DirectCast(Session("Usuario"), ENTIDADES.Usuario), DirectCast(Session("Carrito"), List(Of ENTIDADES.ProductoEntidad)), MiDescuento)
+                Session("Error") = "Se realizó la compra con éxito."
+                'Aca tiene que ir a la página pertinente
+                Response.Redirect("error.aspx", False)
+            End If
+
+
         Catch ex As Exception
 
         End Try
@@ -172,6 +188,15 @@ Public Class resumenCompra
     End Sub
 
     Private Sub ddl_Tarjeta_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddl_Tarjeta.SelectedIndexChanged
+        If Me.ddl_Tarjeta.SelectedValue.ToString = "Efectivo" Then
+            Me.div_tarjeta.Visible = False
+            'Pagando con tarjeta de crédito tiene un recargo del 25%
+        ElseIf Me.ddl_Tarjeta.SelectedValue.ToString = "Tarjeta de Crédito" Then
+            Me.div_tarjeta.Visible = True
+            'Pagando con tarjeta de débito tiene 5% de devolución de IVA
+        ElseIf Me.ddl_Tarjeta.SelectedValue.ToString = "Tarjeta de Débito" Then
+            Me.div_tarjeta.Visible = True
+        End If
         'Con el cambio del combobox, se pide calcular el importe.
         Me.CalcularMontoCompra()
     End Sub

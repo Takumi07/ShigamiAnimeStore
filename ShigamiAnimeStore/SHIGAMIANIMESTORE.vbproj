@@ -109,6 +109,7 @@
     <Content Include="CSS\DateTimePicker.css" />
     <Content Include="CSS\MisEstilos.css" />
     <Content Include="error.aspx" />
+    <Content Include="exportarCorreos.aspx" />
     <Content Include="Figuras.aspx" />
     <Content Include="Imagenes\Add-32.png" />
     <Content Include="Imagenes\add-64.png" />
@@ -281,6 +282,13 @@
     </Compile>
     <Compile Include="error.aspx.vb">
       <DependentUpon>error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="exportarCorreos.aspx.designer.vb">
+      <DependentUpon>exportarCorreos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exportarCorreos.aspx.vb">
+      <DependentUpon>exportarCorreos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Figuras.aspx.designer.vb">

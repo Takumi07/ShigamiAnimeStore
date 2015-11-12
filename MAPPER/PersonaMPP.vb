@@ -36,6 +36,29 @@ Public Class PersonaMPP
     End Function
 
 
+
+
+    Public Function obtenerPersonas() As List(Of ENTIDADES.Persona)
+        Try
+            Dim ComandoStr As String
+            ComandoStr = "Select * from Persona"
+            Dim MiComando = DAL.BD.MiComando(ComandoStr)
+            Dim MiDataTable As New DataTable
+            MiDataTable = DAL.BD.ExecuteDataTable(MiComando)
+            Dim MiListaPersonas As New List(Of ENTIDADES.Persona)
+            For Each MiRow As DataRow In MiDataTable.Rows
+                Dim MiPersona As New ENTIDADES.Persona
+                Me.Formatear(MiRow, MiPersona)
+                MiListaPersonas.Add(MiPersona)
+            Next
+            Return MiListaPersonas
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
+
+
     Public Function comprobarCorreo(ByVal paramPersona As Entidades.Persona) As Boolean
         Try
             Dim MiComando As SqlCommand = DAL.Conexion.retornaComando("Select * from Persona where Mail=@Mail")

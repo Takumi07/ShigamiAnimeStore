@@ -38,4 +38,15 @@
         End Try
     End Function
 
+
+    Public Function listarPersonas() As List(Of ENTIDADES.Persona)
+        Try
+            Dim mimapper As New MAPPER.PersonaMPP
+            Return mimapper.obtenerPersonas
+        Catch ex As Exception
+
+        End Try
+
+    End Function
+
 End Class

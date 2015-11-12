@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Exportacion>
+  <Persona>
+    <DNI>35170288</DNI>
+    <Nombre>Alexis</Nombre>
+    <Apellido>Yañez</Apellido>
+    <Email>ALEXIS_TAKUMI@HOTMAIL.COM</Email>
+  </Persona>
+  <Persona>
+    <DNI>38355798</DNI>
+    <Nombre>Marcos</Nombre>
+    <Apellido>Tassara</Apellido>
+    <Email>marquitos23@hotmail.com</Email>
+  </Persona>
+</Exportacion>

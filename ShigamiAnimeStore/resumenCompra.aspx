@@ -50,7 +50,7 @@
 
                             <div class="col-md-12" runat="server" id="Div1">
                                 <div class="col-md-3" id="div_tarjeta" runat="server" visible="false">
-                                    <asp:TextBox ID="txt_tarjeta" runat="server"></asp:TextBox>
+                                    N° Tarjeta <asp:TextBox ID="txt_tarjeta" runat="server"></asp:TextBox>
                                 </div>
                                 <div class="col-md-3 col-md-offset-2">
                                     <asp:Label ID="Label1" runat="server" Text="Medio de Pago"></asp:Label>
