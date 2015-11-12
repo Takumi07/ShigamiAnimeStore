@@ -26,8 +26,14 @@
                     End If
                 End If
             End If
+        Catch ex As UsuarioInexistenteException
+            Throw New UsuarioInexistenteException
+        Catch ex As UsuarioBloqueadoException
+            Throw New UsuarioBloqueadoException
+        Catch ex As PasswordIncorrectoException
+            Throw New PasswordIncorrectoException
         Catch ex As Exception
-            Throw ex
+            Throw New Exception
         End Try
     End Function
 

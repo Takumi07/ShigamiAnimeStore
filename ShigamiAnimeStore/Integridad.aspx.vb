@@ -2,6 +2,21 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+        If Not IsPostBack Then
+            Me.verificarIntegridad()
+        Else
+            Me.IntegridadReparada.Visible = True
+            Me.botones.Visible = False
+        End If
+
+    End Sub
+
+    Protected Sub btn_reparar_Click(sender As Object, e As EventArgs) Handles btn_reparar.Click
+        BLL.DVBLL.RepararIntegridad()
+    End Sub
+
+    Private Sub verificarIntegridad()
         Try
             Dim MiListaDVEntidad As New List(Of ENTIDADES.DVEntidades)
             MiListaDVEntidad = BLL.DVBLL.DefinirErrorIntegridad
@@ -30,11 +45,5 @@
         Catch ex As Exception
 
         End Try
-
-
-    End Sub
-
-    Protected Sub btn_reparar_Click(sender As Object, e As EventArgs) Handles btn_reparar.Click
-        BLL.DVBLL.RepararIntegridad()
     End Sub
 End Class

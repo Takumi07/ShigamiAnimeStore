@@ -10,6 +10,11 @@
         <div class="panel-cuerpo">
             <br />
             <div class="fila">
+
+                <div id="IntegridadReparada" class="msj-warning col-md-12" runat="server" visible="false">
+                    <asp:Label ID="lbl_IntegridadReparada" runat="server" CssClass="textoTitulo negrita center">Se reparó la integridad de la base de datos con éxito.</asp:Label>
+                </div>
+
                 <div class="col-md-10 col-md-offset-1">
                     <div class="fila">
                         <div class="col-md-10 col-md-offset-1">
@@ -17,6 +22,11 @@
                             </asp:Panel>
                         </div>
                     </div>
+
+
+                    <br />
+                    <br />
+
                     <div class="col-md-12" runat="server" id="botones">
                         <div class="col-md-4 col-md-offset-4">
                             <asp:Button ID="btn_reparar" CssClass="btn btn-aceptar btn-block" runat="server" Text="Reparar Integridad" />

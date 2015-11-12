@@ -108,10 +108,12 @@
             End If
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
-            Me.lbl_TituloError.Text = ex.Mensaje
+            'Me.lbl_TituloError.Text = ex.Mensaje
+            Me.lbl_TituloError.Text = "Campos incompletos"
         Catch ex As BLL.PermisoDuplicadoException
             Me.error.Visible = True
-            Me.lbl_TituloError.Text = ex.Mensaje
+            'Me.lbl_TituloError.Text = ex.Mensaje
+            Me.lbl_TituloError.Text = "Permiso duplicado"
         Catch ex As Exception
         End Try
     End Sub
@@ -134,9 +136,14 @@
             Else
                 Throw New BLL.IngresarunPermisoException
             End If
+        Catch ex As BLL.IngresarunPermisoException
+            Me.error.Visible = True
+            'Me.lbl_TituloError.Text = ex.Mensaje
+            Me.lbl_TituloError.Text = "Ingresar un permiso"
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
-            Me.lbl_TituloError.Text = ex.Mensaje
+            'Me.lbl_TituloError.Text = ex.Mensaje
+            Me.lbl_TituloError.Text = "Campos incompletos"
         Catch ex As Exception
 
         End Try

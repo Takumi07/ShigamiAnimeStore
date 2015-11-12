@@ -350,18 +350,10 @@ Public Class Maestra
     Private Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs) Handles ImageButton1.Click
         Try
             If BLL.DVBLL.VerificarIntegridad = True Then
-                'VER COMO LE TIRO LA VALIDACIÓN!!!!!
                 'validaciones.validarSubmit(Me, Me.Error, Me.lbl_TituloError)
                 Dim _usu As ENTIDADES.Usuario = (New BLL.UsuarioBLL).Login(Me.txt_usuario.Text, Me.txt_password.Text)
                 Session.Add("Usuario", _usu)
                 Session.Timeout = 120
-                'No me funco
-                'MenuLogin.Visible = False
-                'Me.Image1.Visible = False
-                ' Me.Image2.Visible = False
-                'Me.txt_usuario.Visible = False
-                'Me.txt_password.Visible = False
-                'Me.ImageButton1.Visible = False
                 Me.MenuLogin.Visible = False
                 cargarMenuOpciones()
                 'Agregado para Bitacora
@@ -372,9 +364,47 @@ Public Class Maestra
 
             'OJO ACA TENGO QUE REDIRECCIONAR A MI PÁGINA ERROR!!!
         Catch ex As BLL.ExepcionIntegridadCorrupta
-            Session("Error") = "Integridad Corrupta"
-            'Aca tiene que ir a la página pertinente
-            Response.Redirect("Integridad.aspx")
+
+            Try
+                Dim _usu As ENTIDADES.Usuario = (New BLL.UsuarioBLL).Login(Me.txt_usuario.Text, Me.txt_password.Text)
+
+                If _usu.Perfil.Nombre = "Administrador" Then
+
+                    Session.Add("Usuario", _usu)
+                    Session.Timeout = 120
+                    Me.MenuLogin.Visible = False
+                    cargarMenuOpciones()
+
+                    Dim MiSesion As BLL.SesionBLL = BLL.SesionBLL.Current
+                    MiSesion.Inicializar(_usu)
+                    Session("Error") = "Integridad Corrupta"
+                    'Aca tiene que ir a la página pertinente
+                    Response.Redirect("Integridad.aspx", False)
+                Else
+                    Session("Error") = "Integridad Corrupta. Por favor contacte a un administrador para resolver el problema."
+                    'Aca tiene que ir a la página pertinente
+                    Response.Redirect("error.aspx", False)
+                End If
+            Catch ex2 As BLL.CamposincompletosException
+                'Session("Error") = ex.Mensaje
+                Session("Error") = "Campos incompletos"
+                Response.Redirect("Error.aspx")
+            Catch ex2 As BLL.UsuarioInexistenteException
+                'Session("Error") = ex.Mensaje
+                Session("Error") = "Usuario Inexistente"
+                Response.Redirect("Error.aspx")
+            Catch ex2 As BLL.PasswordIncorrectoException
+                'Session("Error") = ex.Mensaje
+                Session("Error") = "Password Incorrecto"
+                Response.Redirect("Error.aspx")
+            Catch ex2 As BLL.UsuarioBloqueadoException
+                'Session("Error") = ex.Mensaje
+                Session("Error") = "Usuario Bloqueado"
+                Response.Redirect("Error.aspx")
+            Catch ex2 As Exception
+
+            End Try
+
         Catch ex As BLL.CamposincompletosException
             'Session("Error") = ex.Mensaje
             Session("Error") = "Campos incompletos"
@@ -391,6 +421,8 @@ Public Class Maestra
             'Session("Error") = ex.Mensaje
             Session("Error") = "Usuario Bloqueado"
             Response.Redirect("Error.aspx")
+        Catch ex As Exception
+
         End Try
     End Sub
 #End Region

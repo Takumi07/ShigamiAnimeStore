@@ -6,7 +6,20 @@ DAL
 </name>
 </assembly>
 <members>
-<member name="M:DAL.BD.ExecuteDataset(System.String)">
+<member name="P:DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DAL.BD.ExecuteDataset(System.String)">
 	<summary> Método que devuelve un DataSet</summary>
 	<param name="paramcomandtext">Espera la sentencia sql</param>
 </member><member name="M:DAL.BD.ExecuteDataTable(System.Data.SqlClient.SqlCommand)">
@@ -45,19 +58,6 @@ DAL
 </member><member name="M:DAL.Conexion.retornaComando(System.String)">
 	<summary> Retorna un objeto Comando</summary>
 	<param name="_paramcomando">String SQL</param>
-</member><member name="P:DAL.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:DAL.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:DAL.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
 </member>
 </members>
 </doc>

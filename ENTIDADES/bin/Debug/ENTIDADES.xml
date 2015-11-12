@@ -6,14 +6,7 @@ ENTIDADES
 </name>
 </assembly>
 <members>
-<member name="P:ENTIDADES.Bitacora.DigitoVerificador">
-	<summary>
- Agregado para efectuar dígito verificador.
- </summary>
-	<value></value>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="P:ENTIDADES.My.Resources.Resources.ResourceManager">
+<member name="P:ENTIDADES.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -26,6 +19,13 @@ ENTIDADES
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="P:ENTIDADES.Bitacora.DigitoVerificador">
+	<summary>
+ Agregado para efectuar dígito verificador.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
 </member>
 </members>
 </doc>
