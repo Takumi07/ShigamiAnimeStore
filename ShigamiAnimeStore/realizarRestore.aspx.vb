@@ -19,11 +19,14 @@
             Dim Resultado As Boolean
             Dim MiBackupRestoreEntidad As New ENTIDADES.BackupRestore
             Dim Path As String
-            Path = "C:\BCPSHIGAMIANIMESTORE\"
+            Path = "C:\SHIGAMIANIMESTORE\"
             Path = Path & Me.fu_Restore.FileName
             MiBackupRestoreEntidad.Directorio = Path
             MiBackupRestoreEntidad.Usuario = BLL.SesionBLL.Current.Usuario
             Resultado = _gestorBK.RealizarRestore(MiBackupRestoreEntidad)
+            Me.Panel.Visible = False
+            Me.Confirmacion.Visible = True
+            Me.lbl_Confirmacion.Text = "Se realizó el restore correctamente."
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
             Me.lbl_TituloError.Text = ex.Mensaje

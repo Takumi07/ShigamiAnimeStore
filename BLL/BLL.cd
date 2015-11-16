@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.My.MySettings">
+    <Position X="7" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.NacionalidadBLL">
+    <Position X="9.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>NacionalidadBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.AnimeBLL">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>Negocio\AnimeBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.GeneroBLL">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAEAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\GeneroBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.MangaBLL">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>Negocio\MangaBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ProductoBLL">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAABAAAAAQ=</HashCode>
+      <FileName>Negocio\ProductoBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.TipoProductoBLL">
+    <Position X="5.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\TipoProductoBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.VentaBLL">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\VentaBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.PersonaBLL">
+    <Position X="12.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAABAAAAAQAAAAAAAAAAAAAAAAEAAAAAABAAAQA=</HashCode>
+      <FileName>PersonaBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ProvinciaBLL">
+    <Position X="0.5" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProvinciaBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.BackupRestoreBLL">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEAAAABAAAA=</HashCode>
+      <FileName>Seguridad\BackupRestoreBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.BitacoraBLL">
+    <Position X="6" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\BitacoraBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.BoletinBLL">
+    <Position X="7.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQQCAAAAAQAAAAAA=</HashCode>
+      <FileName>Seguridad\BoletinBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ContactoBLL">
+    <Position X="10.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAEAAAAAAAAAAAAQAAAAAAAAAAAABAAEAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\ContactoBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DVBLL">
+    <Position X="12.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAEAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\DVBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.EncriptarBLL">
+    <Position X="4.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAgAAACAAAA=</HashCode>
+      <FileName>Seguridad\EncriptarBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.ExcepcionBLL">
+    <Position X="2.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABA=</HashCode>
+      <FileName>Seguridad\Excepciones\ExcepcionBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.IdiomaBLL">
+    <Position X="11.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgQAAEAAAAEAAAAAAAAAAAAAAAQAAAAABAAAAA=</HashCode>
+      <FileName>Seguridad\IdiomaBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.MailingBLL">
+    <Position X="9.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EgACAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\MailingBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.MensajeBLL">
+    <Position X="6.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAgAAEAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAA=</HashCode>
+      <FileName>Seguridad\MensajeBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.PermisoBLL">
+    <Position X="11.5" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAAAAAAAAAACAAAAAAABAAAQQAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Seguridad\PermisoBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SesionBLL">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAEBAAAAAA=</HashCode>
+      <FileName>Seguridad\SesionBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Traductor">
+    <Position X="3.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Seguridad\Traductor.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.UsuarioBLL">
+    <Position X="8.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgACAAAAAgAAEgAEAAQCEAAAQQAAAMAEA=</HashCode>
+      <FileName>Seguridad\UsuarioBLL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

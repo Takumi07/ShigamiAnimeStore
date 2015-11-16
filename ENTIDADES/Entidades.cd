@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ENTIDADES.Direccion">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgEAgAAFAABgAAAACQQgAAAAEAAAAAIAAgA=</HashCode>
+      <FileName>Direccion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Nacionalidad">
+    <Position X="17.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAABAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Nacionalidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.AnimeEntidad">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAA=</HashCode>
+      <FileName>Negocio\AnimeEntidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.GeneroEntidad">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAQAAAAAAIEgCAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\GeneroEntidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.MangaEntidad">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAACAAQAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Negocio\MangaEntidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.ProductoEntidad">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAQAACAwAABIAgCCMMRoAAAAgAAAAAAAAgAAQg=</HashCode>
+      <FileName>Negocio\ProductoEntidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.TipoProductoEntidad">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAEAAACAAgBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\TipoProductoEntidad.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Persona">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAEAAAgAQEgCBAgSAAACkAABAAAAAAA0IAAAA=</HashCode>
+      <FileName>Persona.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Provincia">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAABAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Provincia.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.BackupRestore">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAkAAAAAQA=</HashCode>
+      <FileName>Seguridad\BackupRestore.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Bitacora">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ENTIDADES.Bitacora.tipoOperacionBitacora" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Seguridad\Bitacora.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ENTIDADES.Bitacora.tipoPrioridadBitacora" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Seguridad\Bitacora.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAAAAAAIAABFAAEAAEkAAAEEAAAAAA=</HashCode>
+      <FileName>Seguridad\Bitacora.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Boletin">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAgAEEAhBAgAABAAEAAAAAAAAQAAIAEAA=</HashCode>
+      <FileName>Seguridad\Boletin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Contacto">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAOCAAAAAAAgAAEAMAAgABAAgAAAQEQAAAAIwAAABI=</HashCode>
+      <FileName>Seguridad\Contacto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.DVEntidades">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\DVEntidades.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Idioma">
+    <Position X="12" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAQQAAAAgAEEAAQAgAAQAAAAAQAAAAACIAAAAAA=</HashCode>
+      <FileName>Seguridad\Idioma.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Palabra">
+    <Position X="12" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAAAAAAgAACAAAAAAAAAAAAAAQAAAEAAAA=</HashCode>
+      <FileName>Seguridad\Palabra.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.PermisoBase">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIgAAEgAAQgAAAACQAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Seguridad\PermisoBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.PermisoCompuesto">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAAQAAAIAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\PermisoCompuesto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.PermisoSimple">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\PermisoSimple.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Usuario">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEABATAIAAgEEEAYAAAAAQAIAAAAAiAIgGQAgBgAA=</HashCode>
+      <FileName>Seguridad\Usuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENTIDADES.Telefono">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="ENTIDADES.Telefono.EnumtipoTelefono" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Telefono.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAgAAAgABAABAAAAAAAAAAAAAAAAADAAA=</HashCode>
+      <FileName>Telefono.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MAPPER.DireccionMPP">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DireccionMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.NacionalidadMPP">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAA=</HashCode>
+      <FileName>NacionalidadMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.AnimeMPP">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBAAAAAAAAAAAAAAAAAEEAAAAAAAACAAAAA=</HashCode>
+      <FileName>Negocio\AnimeMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.GeneroMPP">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAQAAAAAAAAAAEAAAAIEIAAAAQAACAA=</HashCode>
+      <FileName>Negocio\GeneroMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.MangaMPP">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAgACAEEAAAAAAAACAAAAA=</HashCode>
+      <FileName>Negocio\MangaMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.ProductoMPP">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAABAAAAAAAAAAACAIAAAkGAAAAAAAACAACAA=</HashCode>
+      <FileName>Negocio\ProductoMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.TipoProductoMPP">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Negocio\TipoProductoMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.VentaMPP">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Negocio\VentaMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.PersonaMPP">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAACAAAAAAAAAAAAAEAAAAAABAAAQA=</HashCode>
+      <FileName>PersonaMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.ProvinciaMPP">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProvinciaMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.BackupRestoreMPP">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Seguridad\BackupRestoreMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.BitacoraMPP">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\BitacoraMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.ContactoMPP">
+    <Position X="6.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAgAgAAA=</HashCode>
+      <FileName>Seguridad\ContactoMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.DVMPP">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAABAAAAEAEAAAAAAAAAACIACAAA=</HashCode>
+      <FileName>Seguridad\DVMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.IdiomaMPP">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAQAAEAAAAEAAAAAAAACAAAAAAQEAAAAAAAAAA=</HashCode>
+      <FileName>Seguridad\IdiomaMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.PermisoMPP">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABhAAAAAAAAAAAAAAAgAAAAAAAACCQAAAAAAAAgAAA=</HashCode>
+      <FileName>Seguridad\PermisoMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.UsuarioMPP">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAAAAgACJAAQAgAgAgAAABQCAAAAQBAAAMAEA=</HashCode>
+      <FileName>Seguridad\UsuarioMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MAPPER.TelefonoMPP">
+    <Position X="8" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>TelefonoMPP.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

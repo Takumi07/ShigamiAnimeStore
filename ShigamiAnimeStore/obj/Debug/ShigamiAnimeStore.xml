@@ -6,55 +6,7 @@ ShigamiAnimeStore
 </name>
 </assembly>
 <members>
-<member name="F:ShigamiAnimeStore.exportarCorreos.lbl_Manga">
-	<summary>
-Control lbl_Manga.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.exportarCorreos.GridView1">
-	<summary>
-Control GridView1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.exportarCorreos.botones">
-	<summary>
-Control botones.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.exportarCorreos.btn_Exportar">
-	<summary>
-Control btn_Exportar.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.exportarCorreos.sinComentarios">
-	<summary>
-Control sinComentarios.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.exportarCorreos.lbl_SinComentarios">
-	<summary>
-Control lbl_SinComentarios.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
+<member name="F:ShigamiAnimeStore.modificarProductos.cab_productos">
 	<summary>
 Control cab_productos.
 </summary>
@@ -177,6 +129,54 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ShigamiAnimeStore._error.lbl_TituloErrorGenerico">
 	<summary>
 Control lbl_TituloErrorGenerico.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.lbl_Manga">
+	<summary>
+Control lbl_Manga.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.botones">
+	<summary>
+Control botones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.btn_Exportar">
+	<summary>
+Control btn_Exportar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.sinComentarios">
+	<summary>
+Control sinComentarios.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.exportarCorreos.lbl_SinComentarios">
+	<summary>
+Control lbl_SinComentarios.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -2022,6 +2022,14 @@ Control lbl_TituloError.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.Panel">
+	<summary>
+Control Panel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ShigamiAnimeStore.realizarBackup.cab_Backup">
 	<summary>
 Control cab_Backup.
@@ -2089,6 +2097,22 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ShigamiAnimeStore.realizarBackup.btn_cancelar">
 	<summary>
 Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.Confirmacion">
+	<summary>
+Control Confirmacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarBackup.lbl_Confirmacion">
+	<summary>
+Control lbl_Confirmacion.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -2174,6 +2198,14 @@ Control lbl_TituloError.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.Panel">
+	<summary>
+Control Panel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:ShigamiAnimeStore.realizarRestore.cab_Restore">
 	<summary>
 Control cab_Restore.
@@ -2209,6 +2241,22 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:ShigamiAnimeStore.realizarRestore.btn_cancelar">
 	<summary>
 Control btn_cancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.Confirmacion">
+	<summary>
+Control Confirmacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ShigamiAnimeStore.realizarRestore.lbl_Confirmacion">
+	<summary>
+Control lbl_Confirmacion.
 </summary>
 	<remarks>
 Campo generado automáticamente.

@@ -8,7 +8,8 @@ Public Class realizarBackup
             Response.Redirect("error.aspx")
         End If
         Me.txt_Directorio.ReadOnly = True
-        Me.txt_Directorio.Text = "C:\BCPSHIGAMIANIMESTORE\"
+        Dim MiDirPath As String = "C:\SHIGAMIANIMESTORE"
+        Me.txt_Directorio.Text = MiDirPath
     End Sub
 
     Protected Sub btn_agregar_Click(sender As Object, e As EventArgs) Handles btn_agregar.Click
@@ -22,6 +23,9 @@ Public Class realizarBackup
             MiBackupRestoreEntidad.Nombre = txt_nombre.Text
             MiBackupRestoreEntidad.Usuario = BLL.SesionBLL.Current.Usuario
             Dim Resu As Boolean = MiBackupRestoreBLL.RealizarBackup(MiBackupRestoreEntidad)
+            Me.Panel.Visible = False
+            Me.Confirmacion.Visible = True
+            Me.lbl_Confirmacion.Text = "Se realizó el backup correctamente."
         Catch ex As BLL.CamposincompletosException
             Me.error.Visible = True
             Me.lbl_TituloError.Text = ex.Mensaje
