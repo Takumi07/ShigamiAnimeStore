@@ -19,6 +19,8 @@
     </item>
     <item nombre="Visualizar Bitacora" id="9">
     </item>
+    <item nombre="Exportar Correos" id="18">
+    </item>
   </submenu>
 
   <submenu nombre="Administrar Productos">

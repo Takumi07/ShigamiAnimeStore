@@ -24,8 +24,8 @@
 
             For Each midventidades As ENTIDADES.DVEntidades In MiListaDVEntidad
                 Dim labelTitulo As New Label
-                labelTitulo.Text = midventidades.NombreTabla
-                labelTitulo.CssClass = "panel-cabecera"
+                labelTitulo.Text = UCase(midventidades.NombreTabla)
+                labelTitulo.CssClass = "label negrita"
                 PanelDV.Controls.Add(labelTitulo)
                 PanelDV.Controls.Add(New LiteralControl("<br>"))
                 PanelDV.Controls.Add(New LiteralControl("<br>"))
